@@ -158,3 +158,113 @@
     padding:10px 11px !important;
   }
 }
+
+/* =========================================================
+   MOBILE / TABLET HEADER FINAL FIX 20260928
+   会社概要をお問い合わせ左側へ強制表示
+   ========================================================= */
+
+@media screen and (max-width:1024px){
+
+  #gp-unified-header .service-copy-header-main{
+    display:flex !important;
+    align-items:center !important;
+    justify-content:space-between !important;
+  }
+
+  #gp-unified-header .service-copy-brand{
+    flex:1 1 auto !important;
+    min-width:0 !important;
+  }
+
+  /* 右上エリア */
+  #gp-unified-header .service-copy-links{
+    display:flex !important;
+    visibility:visible !important;
+    opacity:1 !important;
+
+    flex:0 0 auto !important;
+    align-items:center !important;
+    justify-content:flex-end !important;
+
+    gap:14px !important;
+    margin:0 !important;
+    padding:0 !important;
+  }
+
+  /* 会社概要を強制的に復活 */
+  #gp-unified-header
+  .service-copy-links
+  > a[href*="company/index.html"]:not([href*="#access"]){
+    display:flex !important;
+    visibility:visible !important;
+    opacity:1 !important;
+
+    position:static !important;
+    width:auto !important;
+    height:auto !important;
+
+    margin:0 !important;
+    padding:8px 2px !important;
+
+    color:#073f7d !important;
+    background:none !important;
+
+    border:0 !important;
+    box-shadow:none !important;
+
+    font-size:13px !important;
+    line-height:1.2 !important;
+    font-weight:700 !important;
+    white-space:nowrap !important;
+  }
+
+  /* アクセスだけ上段から消す */
+  #gp-unified-header
+  .service-copy-links
+  > a[href*="#access"]{
+    display:none !important;
+  }
+
+  /* お問い合わせ */
+  #gp-unified-header .service-copy-contact{
+    display:flex !important;
+    visibility:visible !important;
+    opacity:1 !important;
+
+    align-items:center !important;
+    justify-content:center !important;
+
+    margin:0 !important;
+    padding:13px 20px !important;
+
+    min-width:0 !important;
+    width:auto !important;
+    height:auto !important;
+
+    font-size:13px !important;
+    line-height:1.2 !important;
+    white-space:nowrap !important;
+  }
+}
+
+
+/* さらに狭いスマホ */
+@media screen and (max-width:600px){
+
+  #gp-unified-header .service-copy-links{
+    gap:8px !important;
+  }
+
+  #gp-unified-header
+  .service-copy-links
+  > a[href*="company/index.html"]:not([href*="#access"]){
+    font-size:11px !important;
+  }
+
+  #gp-unified-header .service-copy-contact{
+    padding:11px 13px !important;
+    font-size:11px !important;
+  }
+}
+

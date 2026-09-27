@@ -2510,6 +2510,50 @@ footer img[src*="glowpas-logo"]{
 }
 </style>
 
+
+<style id="concept-mobile-bottom-crop-20260928">
+@media screen and (max-width:768px){
+
+  /* CONCEPT / OUR APPROACH 全体の余分な高さを解除 */
+  #ydc1.articleBox{
+    aspect-ratio:auto !important;
+    height:auto !important;
+    min-height:0 !important;
+  }
+
+  /* 上段 */
+  #ydc1 .concept-main{
+    position:relative !important;
+    top:auto !important;
+    left:auto !important;
+    height:auto !important;
+    min-height:0 !important;
+    transform:none !important;
+  }
+
+  /* OUR APPROACH */
+  #ydc1 .concept-approach{
+    position:relative !important;
+    top:auto !important;
+    left:auto !important;
+    height:auto !important;
+    min-height:0 !important;
+
+    /* 本文の下だけ必要最低限残す */
+    padding-bottom:42px !important;
+  }
+
+  #ydc1 .concept-approach-copy{
+    margin-bottom:0 !important;
+    padding-bottom:0 !important;
+  }
+
+  #ydc1 .approach-text:last-child{
+    margin-bottom:0 !important;
+  }
+}
+</style>
+
 </head>
 <body id="top" style="">
 <!-- === header === -->

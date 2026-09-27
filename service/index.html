@@ -3554,3 +3554,110 @@ main{
   }
 }
 </style>
+
+<style id="coverage-grid-compact-final-20260928">
+
+/* ===== 対応業務：コンパクトなグリッド表示 ===== */
+
+.coverage .coverage-grid{
+  display:grid !important;
+  grid-template-columns:repeat(3,minmax(0,1fr)) !important;
+  gap:0 26px !important;
+  padding:26px 30px !important;
+}
+
+.coverage .coverage-item{
+  position:relative !important;
+  display:flex !important;
+  align-items:center !important;
+
+  min-height:62px !important;
+  margin:0 !important;
+  padding:14px 8px 14px 34px !important;
+
+  color:#073F7D !important;
+  font-size:14px !important;
+  line-height:1.55 !important;
+  font-weight:600 !important;
+
+  border-bottom:1px solid rgba(7,63,125,.13) !important;
+}
+
+/* チェックを小さく */
+.coverage .coverage-item::before{
+  position:absolute !important;
+  left:0 !important;
+  top:50% !important;
+  transform:translateY(-50%) !important;
+
+  width:22px !important;
+  height:22px !important;
+
+  font-size:11px !important;
+  line-height:22px !important;
+}
+
+
+/* ===== タブレット ===== */
+@media (max-width:900px){
+
+  .coverage .coverage-grid{
+    grid-template-columns:repeat(2,minmax(0,1fr)) !important;
+    gap:0 18px !important;
+    padding:24px !important;
+  }
+
+  .coverage .coverage-item{
+    min-height:60px !important;
+    padding:12px 6px 12px 31px !important;
+    font-size:13px !important;
+    line-height:1.5 !important;
+  }
+
+  .coverage .coverage-item::before{
+    width:20px !important;
+    height:20px !important;
+    font-size:10px !important;
+  }
+}
+
+
+/* ===== スマホ ===== */
+@media (max-width:560px){
+
+  .coverage .coverage-grid{
+    display:grid !important;
+    grid-template-columns:repeat(2,minmax(0,1fr)) !important;
+
+    gap:0 12px !important;
+    padding:16px 14px !important;
+
+    border-radius:18px !important;
+  }
+
+  .coverage .coverage-item{
+    min-width:0 !important;
+    min-height:54px !important;
+
+    padding:10px 4px 10px 25px !important;
+
+    font-size:11px !important;
+    line-height:1.45 !important;
+    font-weight:600 !important;
+
+    word-break:normal !important;
+    overflow-wrap:anywhere !important;
+  }
+
+  .coverage .coverage-item::before{
+    left:0 !important;
+
+    width:18px !important;
+    height:18px !important;
+
+    font-size:9px !important;
+    line-height:18px !important;
+  }
+}
+
+</style>

@@ -1,0 +1,2799 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="noindex,nofollow" name="robots"/>
+<!-- ▼metaタグ -->
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<!-- ▼ Smarty viewport ▼ -->
+<meta content="width=device-width, initial-scale=1.0, user-scalable=yes" name="viewport"/>
+<!-- ▲ Smarty viewport ▲ -->
+<title>株式会社グローパス｜イベント運営のプロフェッショナル</title>
+<!-- ▼ Smarty用metaタグ ▼ -->
+<meta content="" name="Description"/>
+<meta content="株式会社グローパス,イベント運営,イベント企画,イベント制作,セミナー運営,シンポジウム運営,展示会運営,官公庁イベント,入札案件,オンライン配信,ウェビナー運営,ハイブリッドイベント,スタッフ手配,キャスティング,会場設営,イベント管理,招致管理,企業イベント" name="keywords"/>
+<!-- ▲ Smarty用metaタグ ▲ -->
+<!-- ▲ metaタグ ▲ -->
+<!-- ▼ CSS ▼ -->
+<link href="assets/reset.css" media="all" rel="stylesheet"/>
+<link href="assets/pc_style_1781055832.css" media="all" rel="stylesheet"/>
+<link href="assets/jquery.bxslider.css" rel="stylesheet"/>
+<!-- ▲ CSS ▲ -->
+<!-- ▼ JS ▼ -->
+<script src="assets/jquery.1.11.0.min.js" type="text/javascript"></script>
+<script src="assets/jquery.bxslider.js" type="text/javascript"></script>
+<script src="assets/common.js" type="text/javascript"></script>
+<script src="assets/jquery.magnific-popup.min.js"></script>
+<link href="assets/magnific-popup.css" rel="stylesheet"/>
+<script>
+                    $(function(){
+                        $('.articleBox figure').magnificPopup({delegate: 'a',type: 'image',gallery: {enabled:true}});
+                    });
+                </script>
+<script>
+        $(document).ready(function(){
+            $('.mainSlide').bxSlider({
+                    auto:true,
+                    controls:true,
+
+                    //ゆっくり
+                    
+                                        //普通
+                    speed: 1000,
+                    pause:4000,
+                    
+                    
+                                         //フェード
+                    mode:'fade',
+                                Loop:true
+            });
+        });
+    </script>
+<!-- ▲ JS ▲ -->
+<style id="globus-contact-style">
+#globus-contact,#globus-contact *{box-sizing:border-box}
+#globus-contact{position:relative;min-height:760px;padding:88px 28px 72px;display:flex;align-items:center;justify-content:center;overflow:hidden;color:#123b66;background:url("assets/contact-bg-event.png") center/cover no-repeat}
+#globus-contact .gc-inner{position:relative;z-index:2;width:min(1220px,100%);margin:0 auto;text-align:center}
+#globus-contact .gc-title{margin:0;color:#1688c2;font-size:14px;line-height:1.2;font-weight:700;letter-spacing:.32em}
+#globus-contact .gc-subtitle{margin:20px 0 0;color:#123b66;font-size:clamp(34px,4vw,56px);line-height:1.25;font-weight:700}
+#globus-contact .gc-copy{max-width:820px;margin:22px auto 46px;color:#405e76;font-size:16px;line-height:1.95;font-weight:500}
+#globus-contact .gc-contact-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px;width:min(1040px,100%);margin:0 auto}
+#globus-contact .gc-card{min-height:290px;padding:34px 34px 30px;border:1px solid rgba(255,255,255,.78);border-radius:20px;background:rgba(255,255,255,.88);box-shadow:0 18px 45px rgba(33,91,123,.10);text-align:left;backdrop-filter:blur(4px)}
+#globus-contact .gc-card-top{display:grid;grid-template-columns:110px 1fr;gap:24px;align-items:center}
+#globus-contact .gc-card-icon{width:110px;height:110px;border-radius:50%;display:flex;align-items:center;justify-content:center;background:rgba(45,151,222,.10);color:#1787d3}
+#globus-contact .gc-card-icon svg{width:56px;height:56px;display:block}
+#globus-contact .gc-card-line .gc-card-icon{background:rgba(6,199,85,.10)}
+#globus-contact .gc-card-heading{margin:0 0 10px;color:#123b66;font-size:27px;line-height:1.35;font-weight:700}
+#globus-contact .gc-card-copy{margin:0;color:#536d81;font-size:15px;line-height:1.9;font-weight:500}
+#globus-contact .gc-card-btn{width:100%;min-height:62px;margin-top:26px;padding:14px 26px;border-radius:999px;display:flex;align-items:center;justify-content:center;gap:22px;color:#fff!important;text-decoration:none;font-size:17px;font-weight:700}
+#globus-contact .gc-form-btn{background:linear-gradient(90deg,#1768ca 0%,#2398ef 100%)}
+#globus-contact .gc-line-btn{background:linear-gradient(90deg,#05bd4f 0%,#32d995 100%)}
+#globus-contact .gc-line-mini{display:inline-flex;align-items:center;justify-content:center;width:38px;height:28px;border-radius:50%;background:#fff;color:#06C755;font-size:9px;font-weight:900}
+#globus-contact .gc-footer-mark{margin-top:50px;color:#537188;font-size:12px;letter-spacing:.28em;font-weight:600}
+#globus-contact .gc-footer-mark::before,#globus-contact .gc-footer-mark::after{content:"";display:inline-block;width:130px;height:1px;margin:0 18px 4px;background:rgba(64,113,145,.38)}
+#globus-contact .gc-footer-copy{margin:8px 0 0;color:#607d91;font-size:11px}
+@media(max-width:860px){#globus-contact{min-height:auto;padding:70px 18px 60px}#globus-contact .gc-contact-grid{grid-template-columns:1fr;max-width:640px}}
+@media(max-width:560px){#globus-contact .gc-card{padding:26px 22px 24px}#globus-contact .gc-card-top{grid-template-columns:76px 1fr;gap:16px}#globus-contact .gc-card-icon{width:76px;height:76px}#globus-contact .gc-card-icon svg{width:40px;height:40px}#globus-contact .gc-card-heading{font-size:21px}}
+</style>
+<style id="hero-width-fix">
+/* PC幅による右余白のズレ対策 */
+#mainVisual,
+.mainVisual,
+.mv,
+.hero,
+.firstView {
+  width: calc(100% - 32px) !important;
+  max-width: none !important;
+  margin-left: 16px !important;
+  margin-right: 16px !important;
+  box-sizing: border-box !important;
+}
+
+#mainVisual img,
+.mainVisual img,
+.mv img,
+.hero img,
+.firstView img {
+  width: 100% !important;
+  max-width: none !important;
+  display: block !important;
+  object-fit: cover !important;
+}
+
+@media screen and (min-width: 1200px) {
+  #mainVisual,
+  .mainVisual,
+  .mv,
+  .hero,
+  .firstView {
+    width: calc(100% - 48px) !important;
+    margin-left: 24px !important;
+    margin-right: 24px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #mainVisual,
+  .mainVisual,
+  .mv,
+  .hero,
+  .firstView {
+    width: calc(100% - 20px) !important;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+  }
+}
+</style>
+<style id="news-hover-line">
+
+#newsTopics .news-title {
+  position: relative !important;
+  display: inline-block !important;
+  text-decoration: none !important;
+  border-bottom: none !important;
+  color: inherit;
+}
+
+#newsTopics .news-title::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 100%;
+  height: 1px;
+  background: #148ba6;
+
+  transform: scaleX(0);
+  transform-origin: left center;
+
+  transition:
+    transform .5s cubic-bezier(.22, 1, .36, 1);
+}
+
+#newsTopics .news-title:hover::after {
+  transform: scaleX(1);
+}
+
+#newsTopics a.news-title,
+#newsTopics a.news-title:link,
+#newsTopics a.news-title:visited,
+#newsTopics a.news-title:hover,
+#newsTopics a.news-title:active {
+  text-decoration: none !important;
+  border-bottom: none !important;
+}
+
+#newsTopics a.news-title {
+  transition: color .28s ease;
+}
+
+#newsTopics a.news-title:hover {
+  color: #148ba6 !important;
+}
+
+</style>
+<style id="globus-top-hero-style">
+
+@media screen and (max-width:1200px){
+
+  #globus-top-hero .gph-title{
+    font-size:48px !important;
+  }
+
+  #globus-top-hero .gph-label{
+    font-size:14px !important;
+  }
+
+  #globus-top-hero .gph-description{
+    font-size:14px !important;
+  }
+}
+
+@media screen and (max-width:768px){
+
+  #globus-top-hero{
+    width:calc(100% - 20px) !important;
+    margin:0 auto 30px !important;
+    border-radius:14px !important;
+  }
+
+  #globus-top-hero .gph-copy{
+    width:46% !important;
+    margin-left:5% !important;
+  }
+
+  #globus-top-hero .gph-label{
+    font-size:8px !important;
+    margin-bottom:8px !important;
+  }
+
+  #globus-top-hero .gph-title{
+    font-size:24px !important;
+    line-height:1.35 !important;
+  }
+
+  #globus-top-hero .gph-description{
+    display:none !important;
+  }
+}
+
+</style>
+<style id="globus-hero-typography-fix">
+
+#globus-top-hero .gph-copy{
+  width:34% !important;
+  margin-left:5.8% !important;
+}
+
+/* 小見出し */
+#globus-top-hero .gph-label{
+  color:#1395b4 !important;
+  font-size:16px !important;
+  font-weight:700 !important;
+  line-height:1.45 !important;
+  letter-spacing:.10em !important;
+  margin-bottom:22px !important;
+}
+
+/* メインコピー */
+#globus-top-hero .gph-title{
+  color:#073f7d !important;
+  font-family:
+    "Hiragino Kaku Gothic ProN",
+    "Yu Gothic",
+    "Meiryo",
+    sans-serif !important;
+
+  font-size:54px !important;
+  font-weight:700 !important;
+  line-height:1.15 !important;
+  letter-spacing:-.015em !important;
+
+  margin:0 !important;
+  padding:0 !important;
+}
+
+/* 説明文 */
+#globus-top-hero .gph-description{
+  color:#244760 !important;
+  font-size:15px !important;
+  font-weight:600 !important;
+  line-height:1.8 !important;
+  letter-spacing:.01em !important;
+  margin-top:24px !important;
+}
+
+/* 1400px以下 */
+@media screen and (max-width:1400px){
+
+  #globus-top-hero .gph-title{
+    font-size:48px !important;
+  }
+
+  #globus-top-hero .gph-label{
+    font-size:14px !important;
+  }
+
+  #globus-top-hero .gph-description{
+    font-size:13px !important;
+  }
+}
+
+/* 1000px以下 */
+@media screen and (max-width:1000px){
+
+  #globus-top-hero .gph-copy{
+    width:37% !important;
+    margin-left:5% !important;
+  }
+
+  #globus-top-hero .gph-title{
+    font-size:38px !important;
+  }
+
+  #globus-top-hero .gph-label{
+    font-size:11px !important;
+  }
+
+  #globus-top-hero .gph-description{
+    font-size:11px !important;
+  }
+}
+
+/* スマホ */
+@media screen and (max-width:768px){
+
+  #globus-top-hero .gph-copy{
+    width:43% !important;
+    margin-left:4.5% !important;
+  }
+
+  #globus-top-hero .gph-title{
+    font-size:23px !important;
+    font-weight:700 !important;
+    line-height:1.15 !important;
+  }
+
+  #globus-top-hero .gph-label{
+    font-size:8px !important;
+    font-weight:700 !important;
+    margin-bottom:8px !important;
+  }
+
+  #globus-top-hero .gph-description{
+    display:none !important;
+  }
+}
+
+</style>
+<style id="responsive-center-fix">
+/* ===== PCサイズ差による横ズレ防止 ===== */
+
+html,
+body{
+  width:100%;
+  max-width:100%;
+  margin:0;
+  overflow-x:hidden;
+}
+
+*,
+*::before,
+*::after{
+  box-sizing:border-box;
+}
+
+/* ヘッダー内側を常に画面中央へ */
+.header-inner,
+.header-top,
+.main-nav-inner{
+  width:min(1280px, calc(100% - 48px)) !important;
+  max-width:1280px !important;
+  margin-left:auto !important;
+  margin-right:auto !important;
+}
+
+/* 各主要コンテンツも中央基準 */
+.hero-inner,
+.page-hero-inner,
+.results-inner,
+.intro-inner,
+.jobs-inner,
+.voices-inner,
+.attraction-inner,
+.gallery-inner{
+  width:min(1280px, calc(100% - 48px)) !important;
+  max-width:1280px !important;
+  margin-left:auto !important;
+  margin-right:auto !important;
+}
+
+/* TOPページのカスタムセクション */
+#globus-top-hero > *,
+#globus-support > *,
+#globus-contact > *{
+  max-width:1280px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+/* 画像が画面幅を押し広げない */
+img{
+  max-width:100%;
+}
+
+/* タブレット以下 */
+@media(max-width:900px){
+  .header-inner,
+  .header-top,
+  .main-nav-inner,
+  .hero-inner,
+  .page-hero-inner,
+  .results-inner,
+  .intro-inner,
+  .jobs-inner,
+  .voices-inner,
+  .attraction-inner,
+  .gallery-inner{
+    width:calc(100% - 32px) !important;
+  }
+}
+</style>
+<style id="gp-mobile-final">
+/* =========================================
+   GROWPAS FINAL MOBILE RESPONSIVE
+   ========================================= */
+
+@media (max-width: 768px){
+
+  html,body{
+    width:100% !important;
+    max-width:100% !important;
+    margin:0 !important;
+    padding:0 !important;
+    overflow-x:hidden !important;
+  }
+
+  *,*::before,*::after{
+    box-sizing:border-box !important;
+  }
+
+  img,video,iframe{
+    max-width:100% !important;
+    height:auto;
+  }
+
+  /* ---------- HEADER ---------- */
+
+  .gp-header{
+    width:100% !important;
+  }
+
+  .gp-header-main{
+    width:100% !important;
+    min-height:72px !important;
+    padding:10px 16px !important;
+    margin:0 !important;
+    display:flex !important;
+    align-items:center !important;
+    justify-content:space-between !important;
+    gap:10px !important;
+  }
+
+  .gp-brand{
+    display:flex !important;
+    align-items:center !important;
+    gap:9px !important;
+    min-width:0 !important;
+    flex:1 1 auto !important;
+  }
+
+  .gp-brand img{
+    width:auto !important;
+    height:45px !important;
+    max-width:125px !important;
+    flex:0 0 auto !important;
+  }
+
+  .gp-brand-text{
+    padding-left:9px !important;
+    border-left:1px solid #d6e0e6 !important;
+    max-width:130px !important;
+    font-size:9px !important;
+    line-height:1.45 !important;
+    white-space:normal !important;
+  }
+
+  .gp-header-toplinks{
+    flex:0 0 auto !important;
+    gap:0 !important;
+  }
+
+  .gp-header-toplinks > a:not(.gp-contact),
+  .gp-toplinks > a:not(.gp-contact){
+    display:none !important;
+  }
+
+  .gp-contact{
+    min-width:0 !important;
+    min-height:38px !important;
+    padding:9px 12px !important;
+    border-radius:9px !important;
+    font-size:10px !important;
+    white-space:nowrap !important;
+  }
+
+  /* nav = 横スクロール可能 */
+  .gp-header-nav,
+  .gp-nav{
+    width:100% !important;
+    overflow:hidden !important;
+  }
+
+  .gp-header-nav-inner,
+  .gp-nav-inner{
+    width:100% !important;
+    min-height:48px !important;
+    padding:0 16px !important;
+    margin:0 !important;
+    display:flex !important;
+    align-items:center !important;
+    justify-content:flex-start !important;
+    gap:22px !important;
+    overflow-x:auto !important;
+    overflow-y:hidden !important;
+    white-space:nowrap !important;
+    -webkit-overflow-scrolling:touch;
+    scrollbar-width:none;
+    font-size:11px !important;
+  }
+
+  .gp-header-nav-inner::-webkit-scrollbar,
+  .gp-nav-inner::-webkit-scrollbar{
+    display:none;
+  }
+
+  /* ---------- OLD TOP HEADER ---------- */
+
+  #header .inner{
+    width:100% !important;
+    max-width:100% !important;
+    padding-left:16px !important;
+    padding-right:16px !important;
+    margin:0 auto !important;
+  }
+
+  #siteTtl{
+    max-width:55% !important;
+  }
+
+  #siteTtl img{
+    max-width:100% !important;
+    height:auto !important;
+  }
+
+  /* ---------- TOP HERO ---------- */
+
+  #globus-top-hero{
+    width:100% !important;
+    max-width:none !important;
+    overflow:hidden !important;
+  }
+
+  #globus-top-hero > img{
+    width:100% !important;
+    max-width:none !important;
+    height:auto !important;
+    display:block !important;
+  }
+
+  #globus-top-hero .hero-inner,
+  #globus-top-hero .gph-inner{
+    width:100% !important;
+    max-width:100% !important;
+    padding-left:20px !important;
+    padding-right:20px !important;
+  }
+
+  .gph-title{
+    font-size:34px !important;
+    line-height:1.15 !important;
+  }
+
+  /* ---------- SECTIONS ---------- */
+
+  section{
+    max-width:100% !important;
+  }
+
+  .inner,
+  .intro-inner,
+  .jobs-inner,
+  .voices-inner,
+  .attraction-inner,
+  .gallery-inner,
+  .results-inner,
+  .contact-inner{
+    width:100% !important;
+    max-width:100% !important;
+    margin-left:auto !important;
+    margin-right:auto !important;
+    padding-left:18px !important;
+    padding-right:18px !important;
+  }
+
+  /* ---------- SUPPORT CARDS ---------- */
+
+  .gs-grid,
+  .support-grid{
+    grid-template-columns:1fr !important;
+    gap:18px !important;
+  }
+
+  .gs-card{
+    width:100% !important;
+    max-width:100% !important;
+  }
+
+  /* ---------- RECRUIT ---------- */
+
+  .hero{
+    min-height:430px !important;
+    background-size:cover !important;
+    background-position:center !important;
+  }
+
+  .hero-inner{
+    width:100% !important;
+    padding:45px 20px !important;
+  }
+
+  .hero-handwriting{
+    width:88% !important;
+    max-width:520px !important;
+  }
+
+  .hero-badge{
+    width:115px !important;
+    height:115px !important;
+    right:12px !important;
+    top:20px !important;
+  }
+
+  .jobs-grid,
+  .voices-grid,
+  .attraction-grid{
+    grid-template-columns:1fr !important;
+  }
+
+  .job-card,
+  .voice-card,
+  .attraction-card{
+    width:100% !important;
+  }
+
+  /* ---------- RESULTS ---------- */
+
+  .page-hero{
+    width:100% !important;
+    height:190px !important;
+    min-height:190px !important;
+  }
+
+  .page-hero-inner{
+    width:100% !important;
+    max-width:100% !important;
+    padding:30px 20px !important;
+  }
+
+  .page-hero h1{
+    font-size:29px !important;
+  }
+
+  .year-block{
+    min-height:0 !important;
+    padding-left:62px !important;
+  }
+
+  .year-number{
+    left:-8px !important;
+    top:5px !important;
+    font-size:62px !important;
+    line-height:.8 !important;
+  }
+
+  .year-title{
+    font-size:26px !important;
+  }
+
+  .result-item{
+    display:block !important;
+  }
+
+  /* ---------- CONTACT ---------- */
+
+  .contact-wrap{
+    padding:45px 16px 70px !important;
+  }
+
+  .contact-inner{
+    padding:0 !important;
+  }
+
+  .form-row{
+    display:block !important;
+    grid-template-columns:none !important;
+    padding:19px 0 !important;
+  }
+
+  .form-label{
+    display:block !important;
+    padding:0 0 10px !important;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea{
+    width:100% !important;
+    font-size:16px !important;
+  }
+
+  .radio-group{
+    flex-wrap:wrap !important;
+  }
+
+  .submit-btn{
+    width:100% !important;
+    min-width:0 !important;
+  }
+
+  /* ---------- TEXT ---------- */
+
+  h1,h2,h3,p{
+    overflow-wrap:anywhere;
+  }
+}
+
+@media (max-width: 430px){
+
+  .gp-brand img{
+    height:40px !important;
+    max-width:108px !important;
+  }
+
+  .gp-brand-text{
+    max-width:105px !important;
+    font-size:8px !important;
+  }
+
+  .gp-contact{
+    padding:8px 9px !important;
+    font-size:9px !important;
+  }
+
+  .gph-title{
+    font-size:30px !important;
+  }
+
+  .hero{
+    min-height:390px !important;
+  }
+}
+</style>
+<style id="footer-logo-quality-fix">
+/* フッター：ヘッダーと同じ高画質ロゴ */
+#footer img[src*="glowpas-logo"],
+footer img[src*="glowpas-logo"]{
+  display:block !important;
+  width:auto !important;
+  height:auto !important;
+  max-width:220px !important;
+  max-height:none !important;
+  margin:28px auto 34px !important;
+  object-fit:contain !important;
+}
+
+@media(max-width:768px){
+  #footer img[src*="glowpas-logo"],
+  footer img[src*="glowpas-logo"]{
+    max-width:165px !important;
+    margin:22px auto 28px !important;
+  }
+}
+</style>
+<style id="foot-growpas-logo-fix">
+.foot-area{
+  text-align:center !important;
+  padding:70px 20px 55px !important;
+}
+
+.foot-area .foot-growpas-logo{
+  display:block !important;
+  width:220px !important;
+  max-width:70vw !important;
+  height:auto !important;
+  margin:28px auto 0 !important;
+  object-fit:contain !important;
+}
+
+@media(max-width:768px){
+  .foot-area{
+    padding:50px 16px 40px !important;
+  }
+
+  .foot-area .foot-growpas-logo{
+    width:160px !important;
+    max-width:60vw !important;
+    margin-top:20px !important;
+  }
+}
+</style>
+<style id="globus-hero-overlay-style">
+#globus-top-hero,#globus-top-hero *{box-sizing:border-box}
+#globus-top-hero{position:relative;width:100%;aspect-ratio:1704/864;overflow:hidden;background:#eefaff}
+#globus-top-hero .gph-background{position:absolute;inset:0;display:block;width:100%;height:100%}
+#globus-top-hero .gph-background img{display:block;width:100%;height:100%;max-width:none;object-fit:cover}
+#globus-top-hero .gph-content{position:absolute;z-index:3;top:10.5%;left:5.2%;width:31%;color:#073f7d;font-family:"Hiragino Kaku Gothic ProN","Yu Gothic","YuGothic","Meiryo",sans-serif}
+#globus-top-hero .gph-eyebrow{margin:0;color:#078baa;font-size:clamp(14px,1.25vw,23px);font-weight:700;line-height:1.5;letter-spacing:.06em}
+#globus-top-hero .gph-rule{width:45px;height:2px;margin:18px 0 30px;background:#0b91aa}
+#globus-top-hero .gph-title{margin:0;padding:0;color:#073f7d;font-size:clamp(46px,4.7vw,82px);font-weight:700;line-height:1.18}
+#globus-top-hero .gph-lead{margin:28px 0 0;color:#294f6c;font-size:clamp(14px,1.15vw,20px);font-weight:500;line-height:1.9}
+#globus-top-hero .gph-actions{display:flex;gap:18px;margin-top:28px}
+#globus-top-hero .gph-btn{display:inline-flex;align-items:center;justify-content:space-between;gap:25px;min-width:190px;min-height:58px;padding:14px 28px;border-radius:999px;font-size:15px;font-weight:700;line-height:1;text-decoration:none}
+#globus-top-hero .gph-btn-primary{color:#fff;background:linear-gradient(90deg,#0784d0,#00a8d2)}
+#globus-top-hero .gph-btn-outline{color:#073f7d;background:rgba(255,255,255,.7);border:1.5px solid #638bb4}
+@media(max-width:767px){#globus-top-hero{aspect-ratio:896/1664}#globus-top-hero .gph-background img{object-fit:cover;object-position:center top}#globus-top-hero .gph-content{top:6%;left:7%;width:86%}#globus-top-hero .gph-eyebrow{font-size:12px}#globus-top-hero .gph-rule{width:34px;margin:12px 0 18px}#globus-top-hero .gph-title{font-size:clamp(42px,13vw,62px);line-height:1.15}#globus-top-hero .gph-lead{max-width:92%;margin-top:20px;font-size:13px;line-height:1.8}#globus-top-hero .gph-lead br{display:none}#globus-top-hero .gph-actions{gap:10px;margin-top:20px}#globus-top-hero .gph-btn{min-width:0;min-height:46px;padding:11px 17px;font-size:12px;gap:14px}}
+</style>
+<style id="globus-hero-fine-adjust">
+@media (min-width:768px){
+  #globus-top-hero .gph-content{
+    top:72px !important;
+    left:5.2% !important;
+    width:32% !important;
+  }
+
+  #globus-top-hero .gph-eyebrow{
+    margin-bottom:0 !important;
+  }
+
+  #globus-top-hero .gph-rule{
+    margin:14px 0 24px !important;
+  }
+
+  #globus-top-hero .gph-title{
+    font-size:clamp(48px,4.4vw,76px) !important;
+    line-height:1.15 !important;
+  }
+
+  #globus-top-hero .gph-lead{
+    margin-top:26px !important;
+  }
+
+  #globus-top-hero .gph-actions{
+    margin-top:24px !important;
+  }
+}
+</style>
+<style id="top-hero-fullwidth-fix">
+#globus-top-hero{
+  width:100vw !important;
+  max-width:none !important;
+  margin-left:calc(50% - 50vw) !important;
+  margin-right:calc(50% - 50vw) !important;
+  border-radius:0 !important;
+}
+</style>
+<style id="hero-edge-to-edge">
+#globus-top-hero{
+  width:100vw !important;
+  max-width:none !important;
+  margin-left:calc(50% - 50vw) !important;
+  margin-right:calc(50% - 50vw) !important;
+  overflow:hidden !important;
+}
+
+#globus-top-hero .gph-background,
+#globus-top-hero .gph-background img{
+  width:100% !important;
+  max-width:none !important;
+}
+
+#globus-top-hero .gph-background img{
+  display:block !important;
+  object-fit:cover !important;
+}
+</style>
+<style id="service-button-gradient">
+#globus-top-hero .gph-btn-primary{
+  background:linear-gradient(
+    90deg,
+    #259cf0 0%,
+    #13b8d1 52%,
+    #49d995 100%
+  ) !important;
+  color:#fff !important;
+  border:none !important;
+  box-shadow:0 8px 22px rgba(20,160,190,.16) !important;
+}
+</style>
+<style id="top-intro-copy-style">
+/* TOP 会社紹介文 */
+.gs-intro-copy{
+  max-width:1100px !important;
+  margin:0 auto !important;
+  padding:72px 32px !important;
+  text-align:center !important;
+  color:#123b66 !important;
+  font-size:18px !important;
+  font-weight:700 !important;
+  line-height:2 !important;
+  letter-spacing:.04em !important;
+}
+
+@media(max-width:767px){
+  .gs-intro-copy{
+    padding:48px 22px !important;
+    font-size:15px !important;
+    line-height:1.9 !important;
+  }
+}
+</style>
+<style id="support-clean-final">
+/* ==================================================
+   TOP SUPPORT
+   写真は長方形のまま配置し、
+   白いコンテンツ面を斜めに写真へ重ねる
+   ================================================== */
+
+#globus-support,
+#globus-support *{
+  box-sizing:border-box;
+}
+
+#globus-support{
+  position:relative !important;
+  padding:78px 28px 90px !important;
+  overflow:hidden !important;
+  background:
+    linear-gradient(rgba(244,252,255,.58),rgba(245,252,255,.64)),
+    url("assets/support-bg.png") center/cover no-repeat !important;
+}
+
+#globus-support::before{
+  display:none !important;
+}
+
+#globus-support .gs-inner{
+  position:relative !important;
+  z-index:1 !important;
+  width:min(1360px,100%) !important;
+  max-width:1360px !important;
+  margin:0 auto !important;
+}
+
+#globus-support .gs-heading{
+  margin:0 auto 46px !important;
+  text-align:center !important;
+}
+
+#globus-support .gs-label{
+  margin:0 0 10px !important;
+  color:#1590b0 !important;
+  font-size:13px !important;
+  font-weight:700 !important;
+  letter-spacing:.28em !important;
+}
+
+#globus-support .gs-label::after{
+  content:"" !important;
+  display:block !important;
+  width:58px !important;
+  height:1px !important;
+  margin:11px auto 0 !important;
+  background:#1590b0 !important;
+}
+
+#globus-support .gs-title{
+  margin:0 !important;
+  color:#0b78c4 !important;
+  font-family:inherit !important;
+  font-size:clamp(30px,3vw,46px) !important;
+  font-weight:700 !important;
+  line-height:1.35 !important;
+  letter-spacing:.02em !important;
+}
+
+#globus-support .gs-title span{
+  color:#16385d !important;
+  font-size:.72em !important;
+  font-weight:700 !important;
+}
+
+#globus-support .gs-copy{
+  max-width:980px !important;
+  margin:24px auto 0 !important;
+  color:#52697a !important;
+  font-size:14px !important;
+  line-height:1.9 !important;
+}
+
+/* ===== 3 cards ===== */
+
+#globus-support .gs-grid{
+  display:grid !important;
+  grid-template-columns:repeat(3,minmax(0,1fr)) !important;
+  gap:22px !important;
+  width:100% !important;
+  margin:0 !important;
+}
+
+#globus-support .gs-card,
+#globus-support .gs-card-wide,
+#globus-support .gs-card:last-child{
+  grid-column:auto !important;
+  position:relative !important;
+  width:100% !important;
+  min-height:340px !important;
+  overflow:hidden !important;
+  border-radius:14px !important;
+  background:#fff !important;
+  box-shadow:0 10px 30px rgba(30,78,102,.08) !important;
+  text-decoration:none !important;
+  isolation:isolate !important;
+  transition:transform .3s ease,box-shadow .3s ease !important;
+}
+
+/*
+ * 写真は切り抜かない。
+ * カード右側を普通の長方形写真で埋める。
+ */
+#globus-support .gs-image{
+  position:absolute !important;
+  z-index:1 !important;
+  top:0 !important;
+  right:0 !important;
+  bottom:0 !important;
+  left:auto !important;
+
+  width:52% !important;
+  height:100% !important;
+  max-width:none !important;
+
+  display:block !important;
+  object-fit:cover !important;
+  object-position:center center !important;
+
+  border-radius:0 !important;
+  clip-path:none !important;
+
+  transform:none !important;
+  transition:transform .45s ease !important;
+}
+
+#globus-support .gs-overlay{
+  display:none !important;
+}
+
+/*
+ * 白い本文面を写真の上へ重ねる。
+ *
+ * 上端：カード幅 約58%
+ * 下端：カード幅 約48%
+ *
+ * これで見本のような一本の斜線になる。
+ */
+#globus-support .gs-content{
+  position:absolute !important;
+  z-index:3 !important;
+
+  top:0 !important;
+  left:0 !important;
+  right:auto !important;
+  bottom:0 !important;
+
+  width:64% !important;
+  height:100% !important;
+  min-height:340px !important;
+
+  padding:42px 58px 28px 28px !important;
+
+  display:flex !important;
+  flex-direction:column !important;
+  justify-content:center !important;
+
+  color:#173354 !important;
+  background:#fff !important;
+
+  clip-path:polygon(
+    0 0,
+    91% 0,
+    75% 100%,
+    0 100%
+  ) !important;
+}
+
+#globus-support .gs-no{
+  display:block !important;
+  margin:0 0 18px !important;
+  color:#44aac3 !important;
+  font-size:38px !important;
+  line-height:1 !important;
+  font-weight:300 !important;
+  letter-spacing:.01em !important;
+}
+
+#globus-support .gs-card-title{
+  margin:0 0 16px !important;
+  color:#173354 !important;
+  font-size:23px !important;
+  line-height:1.35 !important;
+  font-weight:700 !important;
+  letter-spacing:normal !important;
+}
+
+#globus-support .gs-card-copy{
+  max-width:220px !important;
+  margin:0 !important;
+  color:#52697a !important;
+  font-size:13px !important;
+  line-height:1.9 !important;
+  opacity:1 !important;
+}
+
+#globus-support .gs-arrow{
+  position:absolute !important;
+  z-index:5 !important;
+  left:28px !important;
+  right:auto !important;
+  bottom:24px !important;
+
+  width:38px !important;
+  height:38px !important;
+
+  border:1px solid #1aa0c4 !important;
+  border-radius:50% !important;
+
+  display:flex !important;
+  align-items:center !important;
+  justify-content:center !important;
+
+  color:#1aa0c4 !important;
+  background:#fff !important;
+  font-size:16px !important;
+}
+
+/* hover */
+#globus-support .gs-card:hover{
+  transform:translateY(-4px) !important;
+  box-shadow:0 16px 38px rgba(30,78,102,.13) !important;
+}
+
+#globus-support .gs-card:hover .gs-image{
+  transform:scale(1.025) !important;
+}
+
+#globus-support .gs-card:hover .gs-arrow{
+  color:#fff !important;
+  background:#1aa0c4 !important;
+}
+
+/* ===== CTA ===== */
+
+#globus-support .gs-cta-wrap{
+  margin-top:42px !important;
+  text-align:center !important;
+}
+
+#globus-support .gs-cta{
+  display:inline-flex !important;
+  align-items:center !important;
+  justify-content:center !important;
+  gap:18px !important;
+
+  min-width:380px !important;
+  min-height:62px !important;
+  padding:14px 34px !important;
+
+  border:0 !important;
+  border-radius:999px !important;
+
+  color:#fff !important;
+  background:linear-gradient(
+    90deg,
+    #087fd0 0%,
+    #0ea9d4 55%,
+    #18c9d7 100%
+  ) !important;
+
+  box-shadow:0 10px 24px rgba(13,151,199,.20) !important;
+
+  font-size:16px !important;
+  font-weight:700 !important;
+  text-decoration:none !important;
+}
+
+#globus-support .gs-cta:hover{
+  color:#fff !important;
+  filter:brightness(1.03) !important;
+  transform:translateY(-2px) !important;
+}
+
+/* ===== tablet ===== */
+
+@media(max-width:980px){
+
+  #globus-support .gs-grid{
+    grid-template-columns:1fr !important;
+    max-width:720px !important;
+    margin:0 auto !important;
+  }
+
+  #globus-support .gs-image{
+    width:52% !important;
+  }
+
+  #globus-support .gs-content{
+    width:64% !important;
+  }
+}
+
+/* ===== mobile ===== */
+
+@media(max-width:640px){
+
+  #globus-support{
+    padding:62px 16px 70px !important;
+  }
+
+  #globus-support .gs-title{
+    font-size:28px !important;
+  }
+
+  #globus-support .gs-title span{
+    display:inline-block !important;
+    margin-top:5px !important;
+    font-size:.68em !important;
+  }
+
+  #globus-support .gs-card{
+    min-height:300px !important;
+  }
+
+  #globus-support .gs-image{
+    width:52% !important;
+    height:100% !important;
+    clip-path:none !important;
+  }
+
+  #globus-support .gs-content{
+    width:68% !important;
+    height:100% !important;
+    min-height:300px !important;
+
+    padding:30px 48px 24px 18px !important;
+
+    clip-path:polygon(
+      0 0,
+      91% 0,
+      75% 100%,
+      0 100%
+    ) !important;
+  }
+
+  #globus-support .gs-no{
+    font-size:30px !important;
+  }
+
+  #globus-support .gs-card-title{
+    font-size:20px !important;
+  }
+
+  #globus-support .gs-card-copy{
+    max-width:190px !important;
+    font-size:11px !important;
+  }
+
+  #globus-support .gs-arrow{
+    left:18px !important;
+    bottom:18px !important;
+  }
+
+  #globus-support .gs-cta{
+    min-width:0 !important;
+    width:100% !important;
+  }
+}
+
+</style>
+<style id="contact-typography-match-support">
+
+/* CONTACT → SUPPORTのラベルと統一 */
+#globus-contact .gc-title{
+  margin:0 0 10px !important;
+  color:#1590b0 !important;
+  font-family:inherit !important;
+  font-size:13px !important;
+  font-weight:700 !important;
+  line-height:1.2 !important;
+  letter-spacing:.28em !important;
+}
+
+#globus-contact .gc-title::after{
+  content:"" !important;
+  display:block !important;
+  width:58px !important;
+  height:1px !important;
+  margin:11px auto 0 !important;
+  background:#1590b0 !important;
+}
+
+/* お問い合わせ → SUPPORTメイン見出しと統一 */
+#globus-contact .gc-subtitle{
+  margin:20px 0 0 !important;
+  color:#0b78c4 !important;
+  font-family:inherit !important;
+  font-size:clamp(30px,3vw,46px) !important;
+  font-weight:700 !important;
+  line-height:1.35 !important;
+  letter-spacing:.02em !important;
+}
+
+/* 説明文 → SUPPORT説明文と統一 */
+#globus-contact .gc-copy{
+  max-width:980px !important;
+  margin:24px auto 46px !important;
+  color:#52697a !important;
+  font-family:inherit !important;
+  font-size:14px !important;
+  font-weight:400 !important;
+  line-height:1.9 !important;
+  letter-spacing:normal !important;
+}
+
+@media(max-width:640px){
+  #globus-contact .gc-subtitle{
+    font-size:28px !important;
+  }
+}
+</style>
+<style id="contact-icon-image-fix">
+#globus-contact .gc-card-icon{
+  overflow:hidden !important;
+}
+#globus-contact .gc-card-icon img{
+  width:100% !important;
+  height:100% !important;
+  display:block !important;
+  object-fit:cover !important;
+  border-radius:50% !important;
+}
+</style>
+<style id="hero-contact-gradient-match">
+/* TOP HERO：お問い合わせもサービス内容と同じ色へ統一 */
+#globus-top-hero .gph-btn-outline{
+  color:#fff !important;
+  background:linear-gradient(
+    90deg,
+    #259cf0 0%,
+    #13b8d1 52%,
+    #49d995 100%
+  ) !important;
+  border:none !important;
+  box-shadow:0 8px 22px rgba(20,160,190,.16) !important;
+}
+
+#globus-top-hero .gph-btn-outline:link,
+#globus-top-hero .gph-btn-outline:visited,
+#globus-top-hero .gph-btn-outline:hover,
+#globus-top-hero .gph-btn-outline:active{
+  color:#fff !important;
+}
+
+#globus-top-hero .gph-btn-outline:hover{
+  transform:translateY(-2px) !important;
+  box-shadow:0 11px 26px rgba(20,160,190,.22) !important;
+  filter:brightness(1.03) !important;
+}
+</style>
+<style id="support-photo-position-final">
+
+/* =========================================
+   SUPPORT PHOTO POSITION
+   写真そのものは変更せず表示位置だけ調整
+   ========================================= */
+
+/* 01 コンセプト：現在の位置を維持 */
+#globus-support .gs-grid > .gs-card:nth-child(1) > img.gs-image{
+  object-position:left center !important;
+}
+
+/* 02 サービス内容：
+   赤線より左側を中心に表示 */
+#globus-support .gs-grid > .gs-card:nth-child(2) > img.gs-image{
+  object-position:38% center !important;
+}
+
+/* 03 実績：
+   赤線2本の間を中心に表示 */
+#globus-support .gs-grid > .gs-card:nth-child(3) > img.gs-image{
+  object-position:48% center !important;
+}
+
+</style>
+<link href="assets/header.css?v=20260917-2136" rel="stylesheet"/>
+<style id="hero-button-color-final">
+/* HEROボタン：見本のブルー＋白アウトラインへ変更 */
+
+/* サービス内容 */
+#globus-top-hero .gph-btn-primary,
+#globus-top-hero .gph-btn-primary:link,
+#globus-top-hero .gph-btn-primary:visited{
+  color:#fff !important;
+  background:#0867c8 !important;
+  border:2px solid #0867c8 !important;
+  box-shadow:none !important;
+}
+
+/* お問い合わせ */
+#globus-top-hero .gph-btn-outline,
+#globus-top-hero .gph-btn-outline:link,
+#globus-top-hero .gph-btn-outline:visited{
+  color:#123b66 !important;
+  background:rgba(255,255,255,.94) !important;
+  border:2px solid #5f7fa6 !important;
+  box-shadow:none !important;
+}
+
+/* hover */
+#globus-top-hero .gph-btn-primary:hover{
+  color:#fff !important;
+  background:#075bb2 !important;
+  border-color:#075bb2 !important;
+  transform:translateY(-2px);
+}
+
+#globus-top-hero .gph-btn-outline:hover{
+  color:#0867c8 !important;
+  background:#fff !important;
+  border-color:#0867c8 !important;
+  transform:translateY(-2px);
+}
+</style>
+
+
+
+
+
+
+<style id="concept-clean-20260920">
+/* =========================================================
+   GROWPAS CONCEPT — CLEAN FINAL
+   16:9の背景画像をそのまま活かし、上段/下段を完全分離
+   ========================================================= */
+#ydc1,
+#ydc1 *{box-sizing:border-box!important}
+
+#ydc1.articleBox{
+  position:relative!important;
+  width:100vw!important;
+  max-width:none!important;
+  aspect-ratio:16/9!important;
+  min-height:760px!important;
+  margin-left:calc(50% - 50vw)!important;
+  margin-right:calc(50% - 50vw)!important;
+  padding:0!important;
+  overflow:hidden!important;
+  color:#103f6c!important;
+  background-size:100% 100%!important;
+  background-position:center center!important;
+  background-repeat:no-repeat!important;
+}
+
+/* ---------- 上段 CONCEPT ---------- */
+#ydc1 .concept-main{
+  position:absolute!important;
+  z-index:2!important;
+  top:0!important;
+  left:50%!important;
+  width:min(1180px,calc(100% - 80px))!important;
+  height:50%!important;
+  min-height:0!important;
+  margin:0!important;
+  padding:3.8% 20px 2.2%!important;
+  transform:translateX(-50%)!important;
+  text-align:center!important;
+}
+
+#ydc1 .concept-label{
+  margin:0 0 2.2%!important;
+  color:#0088b3!important;
+  font-size:clamp(12px,.95vw,16px)!important;
+  line-height:1!important;
+  font-weight:700!important;
+  letter-spacing:.22em!important;
+}
+#ydc1 .concept-label::after{
+  content:""!important;
+  display:block!important;
+  width:55px!important;
+  height:1px!important;
+  margin:16px auto 0!important;
+  background:#0088b3!important;
+}
+#ydc1 .concept-title{
+  margin:0 0 2.1%!important;
+  color:#083b6d!important;
+  font-size:clamp(30px,2.7vw,48px)!important;
+  line-height:1.35!important;
+  font-weight:700!important;
+  letter-spacing:.035em!important;
+}
+#ydc1 .concept-lead{
+  margin:0 auto 2.4%!important;
+  color:#355a77!important;
+  font-size:clamp(12px,.9vw,15px)!important;
+  line-height:1.9!important;
+  font-weight:500!important;
+  letter-spacing:.03em!important;
+}
+#ydc1 .concept-values{
+  display:flex!important;
+  align-items:center!important;
+  justify-content:center!important;
+  gap:32px!important;
+  margin:0 auto 2.2%!important;
+}
+#ydc1 .concept-values strong{
+  color:#006c9d!important;
+  font-size:clamp(15px,1.05vw,19px)!important;
+  line-height:1.4!important;
+  font-weight:700!important;
+  white-space:nowrap!important;
+}
+#ydc1 .concept-values span{
+  display:block!important;
+  width:1px!important;
+  height:30px!important;
+  flex:0 0 1px!important;
+  background:#35a7c9!important;
+}
+#ydc1 .concept-bottom{
+  max-width:900px!important;
+  margin:0 auto!important;
+  padding:0!important;
+  color:#35536d!important;
+  font-size:clamp(11px,.82vw,14px)!important;
+  line-height:1.8!important;
+  font-weight:500!important;
+}
+#ydc1 .concept-bottom p{margin:0 0 5px!important}
+#ydc1 .concept-bottom p:last-child{margin-bottom:0!important}
+
+/* ---------- 下段 OUR APPROACH ---------- */
+#ydc1 .concept-approach{
+  position:absolute!important;
+  z-index:3!important;
+  top:50%!important;
+  left:0!important;
+  width:100%!important;
+  height:50%!important;
+  min-height:0!important;
+  margin:0!important;
+  padding:0!important;
+  display:block!important;
+  text-align:left!important;
+  pointer-events:auto!important;
+  background:transparent!important;
+}
+
+#ydc1 .concept-approach-copy{
+  position:absolute!important;
+  left:8.6%!important;
+  top:10.5%!important;
+  width:35.5%!important;
+  max-width:650px!important;
+  margin:0!important;
+}
+#ydc1 .approach-label{
+  margin:0 0 5.2%!important;
+  color:#0088b3!important;
+  font-size:clamp(11px,.8vw,14px)!important;
+  line-height:1!important;
+  font-weight:700!important;
+  letter-spacing:.20em!important;
+}
+#ydc1 .approach-label::after{
+  content:""!important;
+  display:block!important;
+  width:54px!important;
+  height:1px!important;
+  margin-top:17px!important;
+  background:#0088b3!important;
+}
+#ydc1 .approach-title{
+  margin:0 0 4.3%!important;
+  color:#083b6d!important;
+  font-size:clamp(28px,2.25vw,42px)!important;
+  line-height:1.45!important;
+  font-weight:700!important;
+  letter-spacing:.025em!important;
+}
+#ydc1 .approach-text{
+  margin:0 0 3.1%!important;
+  color:#294e6c!important;
+  font-size:clamp(11px,.82vw,15px)!important;
+  line-height:1.9!important;
+  font-weight:500!important;
+  letter-spacing:.01em!important;
+}
+#ydc1 .approach-text:last-child{margin-bottom:0!important}
+
+#ydc1 .concept-approach-message{
+  position:absolute!important;
+  left:67%!important;
+  top:24%!important;
+  width:25%!important;
+  min-height:0!important;
+  margin:0!important;
+  padding:0!important;
+  color:#073d73!important;
+  text-align:left!important;
+}
+#ydc1 .approach-side-label{
+  position:relative!important;
+  display:block!important;
+  margin:0 0 13%!important;
+  padding-left:36px!important;
+  color:#426987!important;
+  font-size:clamp(10px,.7vw,12px)!important;
+  line-height:1.55!important;
+  font-weight:700!important;
+  letter-spacing:.16em!important;
+}
+#ydc1 .approach-side-label::before{
+  content:""!important;
+  position:absolute!important;
+  left:0!important;
+  top:-4px!important;
+  width:1px!important;
+  height:58px!important;
+  background:#159ac5!important;
+}
+#ydc1 .concept-approach-message p{
+  margin:0!important;
+  color:#073d73!important;
+  font-size:clamp(18px,1.4vw,26px)!important;
+  line-height:1.65!important;
+  font-weight:700!important;
+  letter-spacing:.03em!important;
+}
+
+/* ---------- tablet ---------- */
+@media(max-width:1000px) and (min-width:768px){
+  #ydc1.articleBox{min-height:720px!important}
+  #ydc1 .concept-main{width:calc(100% - 48px)!important;padding-top:4.5%!important}
+  #ydc1 .concept-approach-copy{left:6%!important;width:43%!important}
+  #ydc1 .concept-approach-message{left:62%!important;width:31%!important}
+  #ydc1 .concept-values{gap:20px!important}
+}
+
+/* ---------- smartphone ---------- */
+@media(max-width:767px){
+  #ydc1.articleBox{
+    width:100%!important;
+    aspect-ratio:auto!important;
+    min-height:0!important;
+    margin-left:0!important;
+    margin-right:0!important;
+    background-size:cover!important;
+    background-position:center top!important;
+  }
+  #ydc1 .concept-main,
+  #ydc1 .concept-approach{
+    position:relative!important;
+    top:auto!important;
+    left:auto!important;
+    width:100%!important;
+    height:auto!important;
+    min-height:0!important;
+    transform:none!important;
+  }
+  #ydc1 .concept-main{
+    padding:58px 22px 50px!important;
+    background:rgba(255,255,255,.58)!important;
+  }
+  #ydc1 .concept-values{
+    flex-direction:column!important;
+    gap:14px!important;
+    margin:30px auto!important;
+  }
+  #ydc1 .concept-values span{width:36px!important;height:1px!important}
+  #ydc1 .concept-lead br,
+  #ydc1 .concept-bottom br,
+  #ydc1 .approach-text br{display:none!important}
+  #ydc1 .concept-approach{
+    padding:58px 24px 68px!important;
+    background:rgba(240,249,255,.84)!important;
+  }
+  #ydc1 .concept-approach-copy,
+  #ydc1 .concept-approach-message{
+    position:relative!important;
+    left:auto!important;
+    top:auto!important;
+    width:100%!important;
+    max-width:620px!important;
+    margin:0 auto!important;
+  }
+  #ydc1 .concept-approach-message{margin-top:42px!important}
+  #ydc1 .approach-title{font-size:28px!important}
+  #ydc1 .concept-approach-message p{font-size:26px!important}
+  #ydc1 .approach-side-label{margin-bottom:28px!important}
+}
+</style>
+
+
+<style id="approach-message-position-final">
+#ydc1 .concept-approach-message{
+  left:76% !important;
+  top:34% !important;
+  width:21% !important;
+}
+</style>
+
+
+<style id="concept-background-final">
+#ydc1{
+  background-image:url("assets/(0922)concept.png?v=20260922-1601") !important;
+  background-size:cover !important;
+  background-position:center center !important;
+  background-repeat:no-repeat !important;
+}
+</style>
+
+
+<style id="support-heading-reference-final">
+/* SUPPORT見出し：参考画像準拠 */
+#globus-support .gs-title{
+  font-size:44px !important;
+  font-weight:700 !important;
+  line-height:1.28 !important;
+  letter-spacing:0 !important;
+}
+
+#globus-support .gs-title-blue{
+  color:#44aac3 !important;
+}
+
+#globus-support .gs-title-navy{
+  color:#173354 !important;
+}
+
+#globus-support .gs-title-sub{
+  display:inline-block !important;
+  margin-top:6px !important;
+  color:#173354 !important;
+  font-size:31px !important;
+  font-weight:700 !important;
+  line-height:1.35 !important;
+  letter-spacing:0 !important;
+}
+
+@media(max-width:767px){
+  #globus-support .gs-title{
+    font-size:32px !important;
+  }
+
+  #globus-support .gs-title-sub{
+    font-size:22px !important;
+  }
+}
+</style>
+
+
+<style id="support-title-color-final-20260920">
+/* SUPPORT見出し：前半＝水色、後半＝濃紺 */
+#globus-support .gs-title .gs-title-light{
+  color:#3c98b5 !important;
+  font-size:1em !important;
+  font-weight:700 !important;
+}
+#globus-support .gs-title .gs-title-navy{
+  color:#16385d !important;
+  font-size:1em !important;
+  font-weight:700 !important;
+}
+</style>
+
+
+<style id="support-title-balance-final">
+#globus-support .gs-title .gs-title-light{
+  color:#3c98b5 !important;
+  font-size:1em !important;
+  font-weight:700 !important;
+}
+
+#globus-support .gs-title .gs-title-ni{
+  color:#16385d !important;
+  font-size:.62em !important;
+  font-weight:700 !important;
+  margin:0 .06em !important;
+}
+
+#globus-support .gs-title .gs-title-taiou{
+  color:#16385d !important;
+  font-size:.82em !important;
+  font-weight:700 !important;
+}
+</style>
+
+
+<style id="concept-right-position-fix">
+@media (min-width:1001px){
+
+  #ydc1 .concept-approach-message{
+    left:73.5% !important;
+    top:20% !important;
+    width:21% !important;
+  }
+
+  #ydc1 .approach-side-label{
+    margin-bottom:10% !important;
+  }
+
+  #ydc1 .concept-approach-message p{
+    font-size:clamp(18px,1.4vw,26px) !important;
+    line-height:1.65 !important;
+  }
+
+}
+</style>
+
+
+<style id="concept-right-inner-fix">
+@media (min-width:1001px){
+
+  /* 英字＋縦線 */
+  #ydc1 .approach-side-label{
+    position:relative !important;
+    left:3% !important;
+    margin-bottom:5% !important;
+  }
+
+  /* 日本語メッセージ */
+  #ydc1 .concept-approach-message p{
+    position:relative !important;
+    left:3% !important;
+    top:125px !important;
+    margin:0 !important;
+  }
+
+}
+</style>
+
+
+<style id="approach-label-down-final">
+@media (min-width:1001px){
+
+  /* TAILORED FOR EACH STORY ＋ 縦線だけ下へ */
+  #ydc1 .approach-side-label{
+    position:relative !important;
+    left:12% !important;
+    top:90px !important;
+    margin-bottom:5% !important;
+  }
+
+}
+</style>
+
+
+<style id="approach-line-slant-final">
+@media (min-width:1001px){
+
+  /* TAILORED FOR EACH STORY 左側の青線だけ斜めにする */
+  #ydc1 .approach-side-label::before{
+    transform:rotate(26deg) !important;
+    transform-origin:center center !important;
+  }
+
+}
+</style>
+
+
+<style id="hero-news-font-unify-final">
+
+/* HERO：見本のゴシック体・濃紺へ統一 */
+#globus-top-hero .gph-title{
+  font-family:
+    "Helvetica Neue",
+    "Hiragino Kaku Gothic ProN",
+    "Yu Gothic",
+    "YuGothic",
+    "Meiryo",
+    sans-serif !important;
+  color:#073f7d !important;
+  font-weight:700 !important;
+  letter-spacing:.01em !important;
+}
+
+/* NEWS：CONCEPTラベルと同じトーンへ統一 */
+#newsTopics .heading{
+  font-family:
+    "Helvetica Neue",
+    Arial,
+    sans-serif !important;
+  color:#0088b3 !important;
+  font-weight:500 !important;
+  letter-spacing:.22em !important;
+}
+
+</style>
+
+
+<style id="support-subtitle-final">
+#globus-support .gs-subtitle{
+  margin:12px 0 0 !important;
+  color:#16385d !important;
+  font-family:inherit !important;
+  font-size:clamp(19px,1.65vw,27px) !important;
+  line-height:1.45 !important;
+  font-weight:700 !important;
+  letter-spacing:.025em !important;
+  text-align:center !important;
+}
+
+#globus-support .gs-copy{
+  margin-top:34px !important;
+}
+
+@media(max-width:640px){
+  #globus-support .gs-subtitle{
+    margin-top:9px !important;
+    font-size:17px !important;
+  }
+
+  #globus-support .gs-copy{
+    margin-top:25px !important;
+  }
+}
+</style>
+
+
+<style id="support-title-color-deeper">
+#globus-support .gs-title-light{
+  color:#3c98b5 !important;
+}
+</style>
+
+
+<style id="contact-heading-hero-match-final">
+/* お問い合わせ：HEROメインコピーとタイポグラフィを統一 */
+#globus-contact .gc-subtitle{
+  color:#073f7d !important;
+  font-family:
+    "Helvetica Neue",
+    "Hiragino Kaku Gothic ProN",
+    "Yu Gothic",
+    "YuGothic",
+    "Meiryo",
+    sans-serif !important;
+  font-size:clamp(30px,2.7vw,48px) !important;
+  font-weight:700 !important;
+  line-height:1.35 !important;
+  letter-spacing:.035em !important;
+}
+
+@media(max-width:640px){
+  #globus-contact .gc-subtitle{
+    font-size:28px !important;
+  }
+}
+</style>
+
+<style id="concept-right-message-position-20260922">
+@media (min-width:769px){
+  #ydc1 .concept-approach-message{
+    transform:none !important;
+  }
+}
+</style>
+<style id="concept-text-size-up-20260922">
+/* CONCEPT上段：PCのみ文字を約2回り大きく */
+@media (min-width:768px){
+
+  #ydc1 .concept-lead{
+    font-size:clamp(16px,1.12vw,19px) !important;
+    line-height:1.85 !important;
+  }
+
+  #ydc1 .concept-values{
+    gap:clamp(20px,2.1vw,38px) !important;
+  }
+
+  #ydc1 .concept-values strong{
+    font-size:clamp(20px,1.42vw,24px) !important;
+    line-height:1.35 !important;
+  }
+
+  #ydc1 .concept-values span{
+    height:36px !important;
+  }
+
+  #ydc1 .concept-bottom{
+    max-width:1100px !important;
+    font-size:clamp(15px,1.05vw,18px) !important;
+    line-height:1.85 !important;
+  }
+
+  #ydc1 .concept-bottom p{
+    margin-bottom:7px !important;
+  }
+}
+</style>
+
+<style id="approach-text-size-up-20260922">
+/* OUR APPROACH本文：改行位置はそのまま、文字を大きく・行間を狭く */
+@media (min-width:768px){
+  #ydc1 .approach-text{
+    font-size:clamp(17px,1.18vw,20px) !important;
+    line-height:1.55 !important;
+  }
+}
+</style>
+<style id="approach-copy-width-fix-20260922">
+/* OUR APPROACH：指定した<br>まで自然改行させない */
+@media (min-width:1001px){
+  #ydc1 .concept-approach-copy{
+    width:52% !important;
+  }
+
+  #ydc1 .approach-text{
+    white-space:nowrap !important;
+  }
+}
+</style>
+
+
+<style id="approach-font-match-concept-20260922">
+/* OUR APPROACH本文を上段CONCEPT本文と同じ文字設定に統一 */
+@media (min-width:768px){
+  #ydc1 .approach-text{
+    font-family:inherit !important;
+    color:#35536d !important;
+    font-size:clamp(15px,1.05vw,18px) !important;
+    line-height:1.85 !important;
+    font-weight:500 !important;
+    letter-spacing:normal !important;
+  }
+}
+</style>
+
+
+<style id="concept-height-tiny-fix-20260922">
+/* CONCEPT：本文下端にほんの少しだけ余白を追加 */
+@media (min-width:1001px){
+  #ydc1.articleBox{
+    aspect-ratio:auto !important;
+    height:calc(100vw * 9 / 16 + 30px) !important;
+    min-height:790px !important;
+  }
+
+  /* 上下の境界は元の16:9位置を維持 */
+  #ydc1 .concept-main{
+    height:calc((100vw * 9 / 16) / 2) !important;
+  }
+
+  #ydc1 .concept-approach{
+    top:calc((100vw * 9 / 16) / 2) !important;
+    height:calc(100% - (100vw * 9 / 16) / 2) !important;
+  }
+}
+</style>
+
+
+<style id="support-mobile-height-70-20260923">
+/* TOP SUPPORT：スマホのみカードを約70%の高さへ圧縮 */
+@media (max-width:640px){
+
+  #globus-support .gs-grid{
+    gap:16px !important;
+  }
+
+  #globus-support .gs-card,
+  #globus-support .gs-card-wide,
+  #globus-support .gs-card:last-child{
+    min-height:210px !important;
+    height:210px !important;
+  }
+
+  #globus-support .gs-image{
+    height:210px !important;
+    min-height:210px !important;
+    object-fit:cover !important;
+  }
+
+  #globus-support .gs-content{
+    height:210px !important;
+    min-height:210px !important;
+    padding:20px 42px 18px 18px !important;
+  }
+
+  #globus-support .gs-no{
+    margin-bottom:10px !important;
+    font-size:25px !important;
+  }
+
+  #globus-support .gs-card-title{
+    margin-bottom:9px !important;
+    font-size:17px !important;
+    line-height:1.3 !important;
+  }
+
+  #globus-support .gs-card-copy{
+    max-width:165px !important;
+    font-size:10px !important;
+    line-height:1.65 !important;
+  }
+
+  #globus-support .gs-arrow{
+    left:18px !important;
+    bottom:14px !important;
+    width:32px !important;
+    height:32px !important;
+    font-size:13px !important;
+  }
+}
+</style>
+
+
+<style id="support-mobile-text-up-20260923">
+/* TOP SUPPORT：スマホのみ文字を少し上へ。矢印位置は変更しない */
+@media (max-width:640px){
+
+  #globus-support .gs-no,
+  #globus-support .gs-card-title,
+  #globus-support .gs-card-copy{
+    position:relative !important;
+    top:-18px !important;
+  }
+
+}
+</style>
+
+
+<style id="mobile-hero-title-single-line-20260923">
+/* HOME：スマホ版ヒーローコピーを1行表示 */
+@media screen and (max-width:768px){
+  #globus-top-hero .gph-title{
+    width:max-content !important;
+    max-width:none !important;
+    white-space:nowrap !important;
+    font-size:clamp(18px, 5.2vw, 28px) !important;
+    line-height:1.2 !important;
+    letter-spacing:-0.04em !important;
+  }
+
+  #globus-top-hero .gph-title br{
+    display:none !important;
+  }
+
+  #globus-top-hero .gph-copy{
+    width:auto !important;
+    max-width:none !important;
+    margin-left:3.5% !important;
+    margin-right:3.5% !important;
+  }
+}
+</style>
+
+
+<style id="mobile-hero-type-balance-20260923">
+/* HOMEスマホ：ヒーロー文字サイズだけ微調整 */
+@media screen and (max-width:768px){
+
+  /* タイトル：1行を維持して少しだけ大きく */
+  #globus-top-hero .gph-title{
+    font-size:clamp(20px, 5.8vw, 30px) !important;
+    line-height:1.15 !important;
+    letter-spacing:-0.045em !important;
+    white-space:nowrap !important;
+  }
+
+  #globus-top-hero .gph-title br{
+    display:none !important;
+  }
+
+  /* 本文：少し小さく、行間を詰める */
+  #globus-top-hero .gph-description{
+    display:block !important;
+    font-size:clamp(12px, 3.45vw, 16px) !important;
+    line-height:1.65 !important;
+    letter-spacing:0 !important;
+    margin-top:18px !important;
+  }
+}
+</style>
+
+
+<style id="home-mobile-news-compact-20260926">
+@media screen and (max-width:768px){
+
+  /* NEWSセクション全体をコンパクトに */
+  #newsTopics{
+    width:calc(100% - 36px) !important;
+    margin:0 auto !important;
+    padding:28px 0 32px !important;
+  }
+
+  /* NEWS見出し */
+  #newsTopics .heading{
+    margin:0 0 24px !important;
+    font-size:20px !important;
+    line-height:1.15 !important;
+    letter-spacing:.20em !important;
+  }
+
+  /* 一覧 */
+  #newsTopics .list{
+    margin:0 !important;
+    padding:0 !important;
+  }
+
+  #newsTopics .list li{
+    display:grid !important;
+    grid-template-columns:82px minmax(0,1fr) !important;
+    align-items:start !important;
+    column-gap:10px !important;
+
+    margin:0 !important;
+    padding:0 0 14px !important;
+
+    font-size:11px !important;
+    line-height:1.55 !important;
+  }
+
+  #newsTopics .list li:last-child{
+    padding-bottom:0 !important;
+  }
+
+  /* 日付 */
+  #newsTopics .day{
+    width:auto !important;
+    margin:0 !important;
+    padding:0 !important;
+
+    font-size:11px !important;
+    line-height:1.55 !important;
+    letter-spacing:.02em !important;
+    white-space:nowrap !important;
+  }
+
+  /* NEWS本文 */
+  #newsTopics .news-title{
+    margin:0 !important;
+    padding:0 !important;
+
+    font-size:11px !important;
+    line-height:1.55 !important;
+    letter-spacing:.02em !important;
+  }
+}
+</style>
+
+
+
+<style id="home-mobile-news-spacing-tight-20260926">
+@media screen and (max-width:768px){
+
+  /* NEWS全体：天地をコンパクトに */
+  #newsTopics{
+    padding:14px 0 16px !important;
+  }
+
+  /* NEWS見出し下の余白 */
+  #newsTopics .heading{
+    margin:0 0 14px !important;
+  }
+
+  /* 各ニュース間の余白 */
+  #newsTopics .list li{
+    padding-bottom:8px !important;
+  }
+
+  #newsTopics .list li:last-child{
+    padding-bottom:0 !important;
+  }
+}
+</style>
+
+
+<style id="top-mobile-heading-unify-20260926">
+/* ==================================================
+   TOP MOBILE HEADING
+   採用情報「JOB / 募集職種」のサイズ感へ統一
+   PCには影響させない
+   ================================================== */
+
+@media screen and (max-width:768px){
+
+  /* ---------- CONCEPT ---------- */
+  #ydc1 .concept-label{
+    font-size:11px !important;
+    line-height:1.2 !important;
+    letter-spacing:.22em !important;
+  }
+
+  #ydc1 .concept-title{
+    font-size:24px !important;
+    line-height:1.45 !important;
+    font-weight:700 !important;
+  }
+
+  #ydc1 .concept-lead{
+    font-size:13px !important;
+    line-height:1.85 !important;
+  }
+
+  /* ---------- OUR APPROACH ---------- */
+  #ydc1 .approach-label{
+    font-size:11px !important;
+    line-height:1.2 !important;
+    letter-spacing:.20em !important;
+  }
+
+  #ydc1 .approach-title{
+    font-size:24px !important;
+    line-height:1.45 !important;
+    font-weight:700 !important;
+  }
+
+  #ydc1 .approach-text{
+    font-size:13px !important;
+    line-height:1.85 !important;
+  }
+
+  /* ---------- SUPPORT ---------- */
+  #globus-support .gs-label{
+    font-size:11px !important;
+    line-height:1.2 !important;
+    letter-spacing:.28em !important;
+  }
+
+  #globus-support .gs-title{
+    font-size:24px !important;
+    line-height:1.45 !important;
+    font-weight:700 !important;
+  }
+
+  #globus-support .gs-subtitle{
+    font-size:16px !important;
+    line-height:1.5 !important;
+  }
+
+  #globus-support .gs-copy{
+    font-size:13px !important;
+    line-height:1.85 !important;
+  }
+
+  /* ---------- CONTACT ---------- */
+  #globus-contact .gc-title{
+    font-size:11px !important;
+    line-height:1.2 !important;
+    letter-spacing:.28em !important;
+  }
+
+  #globus-contact .gc-subtitle{
+    font-size:24px !important;
+    line-height:1.45 !important;
+    font-weight:700 !important;
+  }
+
+  #globus-contact .gc-copy{
+    font-size:13px !important;
+    line-height:1.85 !important;
+  }
+
+}
+</style>
+
+
+<style id="home-mobile-concept-values-horizontal-20260926">
+@media screen and (max-width:768px){
+
+  #ydc1 .concept-values{
+    display:grid !important;
+    grid-template-columns:minmax(0,1fr) 1px minmax(0,1fr) 1px minmax(0,1fr) !important;
+    align-items:center !important;
+
+    width:calc(100% - 32px) !important;
+    max-width:none !important;
+    margin:22px auto !important;
+    padding:0 !important;
+    gap:8px !important;
+  }
+
+  #ydc1 .concept-values strong{
+    display:block !important;
+    margin:0 !important;
+    padding:0 !important;
+
+    color:#0878a7 !important;
+    font-size:10px !important;
+    font-weight:700 !important;
+    line-height:1.45 !important;
+    letter-spacing:0 !important;
+    text-align:center !important;
+    white-space:nowrap !important;
+  }
+
+  /* 既存の横線を、ラフ通りの縦線へ */
+  #ydc1 .concept-values span{
+    display:block !important;
+    width:1px !important;
+    height:24px !important;
+    margin:0 auto !important;
+    padding:0 !important;
+    background:rgba(8,120,167,.55) !important;
+  }
+}
+</style>
+
+</head>
+<body id="top" style="">
+<!-- === header === -->
+<header class="service-copy-header" id="gp-unified-header">
+<div class="service-copy-header-main">
+<a class="service-copy-brand" href="index.html">
+<img alt="グローパス" src="assets/glowpas-logo.png"/>
+<span class="service-copy-brand-text">官公庁・企業イベントの制作・運営</span>
+</a>
+<div class="service-copy-links">
+<a href="company/index.html">会社概要</a>
+<a href="company/index.html#access">アクセス</a>
+<a class="service-copy-contact" href="contact/index.html">お問い合わせ</a>
+</div>
+</div>
+<nav aria-label="メインナビゲーション" class="service-copy-nav">
+<div class="service-copy-nav-inner">
+<a href="index.html">HOME</a>
+<a href="service/index.html">サービス内容</a>
+<a href="results/index.html">実績</a>
+<a href="recruit/index.html">採用情報</a>
+<a href="privacy/index.html">個人情報保護方針</a>
+</div>
+</nav>
+</header>
+<!-- === main === -->
+<main>
+<!-- NEW TOP HERO -->
+<section id="globus-top-hero">
+<picture class="gph-background">
+<source media="(max-width:767px)" srcset="assets/top-hero-bg-mobile.png?v=20260910-2010"/>
+<img alt="グローパス イベント運営" src="assets/top-hero-bg.png?v=20260910-2010"/>
+</picture>
+<div class="gph-content">
+<p class="gph-eyebrow">官公庁・企業イベントの企画・運営</p>
+<div class="gph-rule"></div>
+<h1 class="gph-title">想いを、<br/>成功という<br/>体験へ。</h1>
+<p class="gph-lead">企画から運営、音響・映像、オンライン配信まで。<br/>イベントの成功をワンストップで支えます。</p>
+<div class="gph-actions">
+<a class="gph-btn gph-btn-primary" href="service/index.html">サービス内容 <span>→</span></a>
+<a class="gph-btn gph-btn-outline" href="contact/index.html">お問い合わせ <span>→</span></a>
+</div></div></section>
+<!-- /NEW TOP HERO -->
+<div class="container">
+<article class="slide" id="siteDesc">
+</article>
+<article id="newsTopics">
+<p class="heading">NEWS</p>
+<ul class="list">
+<li>
+<span class="day">2025.02.11</span>
+<a class="news-title" href="https://www.grps.jp/cont7/main.html" target="_blank" title="">スタッフ募集中！
+</a>
+</li>
+<li>
+<span class="day">2025.02.11</span>
+<a class="news-title" href="https://www.grps.jp/cont6/main.html" target="_blank" title="">実績を掲載しました。</a>
+</li>
+<li>
+<span class="day">2022.02.15</span>
+<span class="news-title">内容を一部更新しました。</span>
+</li>
+<li>
+<span class="day">2020.12.08</span>
+<span class="news-title">ホームページが公開されました。</span>
+</li>
+</ul>
+<div class="moreBtn" style="display: none;">
+<button class="btn">
+                                もっと見る
+                            </button>
+</div>
+</article>
+<!-- === articleArea === -->
+<section class="articleBox noImg bg_color" id="ydc1">
+
+  <!-- 上段：CONCEPT -->
+  <div class="concept-main">
+    <p class="concept-label">CONCEPT</p>
+
+    <h2 class="concept-title">想いを、成功という体験へ。</h2>
+
+    <p class="concept-lead">
+      グローパスは、官公庁・自治体・企業のイベントを<br>
+      企画から運営まで一貫して支援するプロフェッショナルチームです。
+    </p>
+
+    <div class="concept-values">
+      <strong>人と人をつなぐ。</strong>
+      <span></span>
+      <strong>企業と社会をつなぐ。</strong>
+      <span></span>
+      <strong>想いと未来をつなぐ。</strong>
+    </div>
+
+    <div class="concept-bottom">
+      <p>
+        私たちが届けたいのは、イベントそのものではなく、その先にある価値です。
+      </p>
+      <p>
+        「Grow（成長）」と「Pass（つなぐ・受け渡す）」の名のもとに、<br>
+        確かな運営力と柔軟な対応力で、お客様の想いを成功という体験へと導きます。
+      </p>
+    </div>
+  </div>
+
+  <!-- 下段：OUR APPROACH -->
+  <div class="concept-approach">
+
+    <div class="concept-approach-copy">
+      <p class="approach-label">OUR APPROACH</p>
+
+      <h3 class="approach-title">
+        一つひとつの現場に、<br>
+        同じ答えはない。
+      </h3>
+
+      <p class="approach-text">
+        イベントの目的も、規模も、関わる人も、それぞれ異なります。<br>
+        だからこそ私たちは、決まった形に当てはめるのではなく、<br>
+        主催者の想いや課題を丁寧にくみ取り、その現場に最適な方法を考えます。
+      </p>
+
+      <p class="approach-text">
+        企画から制作、キャスティング、音響・映像・配信、当日の運営まで。<br>
+        必要な業務を一つにつなぎ、状況の変化にも柔軟に対応しながら、<br>
+        最後まで責任を持って伴走します。
+      </p>
+    </div>
+
+    <div class="concept-approach-message">
+      <span class="approach-side-label">TAILORED<br>FOR EACH STORY</span>
+
+      <p>
+        それぞれの想いに、<br>
+        それぞれのカタチを。
+      </p>
+    </div>
+
+  </div>
+
+</section>
+<!-- 画像なしの場合 -->
+</div><!-- /.container SUPPORT full width -->
+<section id="globus-support">
+<div class="gs-inner">
+<div class="gs-heading">
+<p class="gs-label">SUPPORT</p>
+<h2 class="gs-title"><span class="gs-title-light">幅広いイベント支援</span><span class="gs-title-ni">に</span><span class="gs-title-taiou">対応</span></h2>
+<p class="gs-subtitle">官公庁・自治体から企業イベントまで</p>
+<p class="gs-copy">
+        企画から制作、キャスティング、当日の運営まで。グローパスは、イベントに必要な業務を一貫してサポートします。
+      </p>
+</div>
+<div class="gs-grid">
+<a class="gs-card" href="#ydc1">
+<img alt="コンセプト" class="gs-image" src="assets/support-concept.jpg"/>
+<div class="gs-content">
+<span class="gs-no">01</span>
+<h3 class="gs-card-title">コンセプト</h3>
+<p class="gs-card-copy">想いをくみ取り、目的に沿ったイベントづくりを大切にしています。</p>
+<span class="gs-arrow">→</span>
+</div>
+</a>
+<a class="gs-card" href="service/index.html">
+<img alt="サービス内容" class="gs-image" src="assets/support-service.jpg?v=20260917-3"/>
+<div class="gs-content">
+<span class="gs-no">02</span>
+<h3 class="gs-card-title">サービス内容</h3>
+<p class="gs-card-copy">企画・制作・運営・配信など、イベントに必要な業務を幅広くサポート。</p>
+<span class="gs-arrow">→</span>
+</div>
+</a>
+<a class="gs-card" href="results/index.html">
+<img alt="実績" class="gs-image" src="assets/support-results.jpg?v=20260917-3"/>
+<div class="gs-content">
+<span class="gs-no">03</span>
+<h3 class="gs-card-title">実績</h3>
+<p class="gs-card-copy">官公庁・自治体・企業イベントなど、多様な現場で培った経験があります。</p>
+<span class="gs-arrow">→</span>
+</div>
+</a>
+</div>
+<div class="gs-cta-wrap">
+<a class="gs-cta" href="#globus-contact">イベントのご相談はこちら <span>→</span></a>
+</div>
+</div>
+</section>
+<div class="container">
+<!-- 画像なしの場合 -->
+<!-- === /articleArea === -->
+</div>
+</main>
+<!-- === /main === -->
+<div class="container">
+<!-- === aside === -->
+<aside id="blog">
+</aside>
+</div>
+<section id="globus-contact">
+<div class="gc-inner">
+<h2 class="gc-title">CONTACT</h2>
+<p class="gc-subtitle">お問い合わせ</p>
+<p class="gc-copy">イベントの企画・運営に関するご相談は、お気軽にお問い合わせください。<br/>ご要望をお伺いし、最適な進め方をご提案いたします。</p>
+<div class="gc-contact-grid">
+<div class="gc-card gc-card-form">
+<div class="gc-card-top">
+<div class="gc-card-icon"><img alt="お問い合わせフォーム" src="assets/contact-form-icon.png"/></div>
+<div><h3 class="gc-card-heading">お問い合わせフォーム</h3><p class="gc-card-copy">企業・官公庁・イベント主催者の方へ<br/>正式なお見積り・ご相談はこちらから。</p></div>
+</div>
+<a class="gc-card-btn gc-form-btn" href="contact/index.html">フォームから相談する <span>→</span></a>
+</div>
+<div class="gc-card gc-card-line">
+<div class="gc-card-top">
+<div class="gc-card-icon"><img alt="LINEで相談する" src="assets/line-contact-icon.png"/></div>
+<div><h3 class="gc-card-heading">LINEで相談する</h3><p class="gc-card-copy">まずは気軽に相談したい方へ<br/>担当者が迅速に対応いたします。</p></div>
+</div>
+<a class="gc-card-btn gc-line-btn" href="https://lin.ee/WwHYCKs" rel="noopener" target="_blank"><span class="gc-line-mini">LINE</span>友だち追加して相談する <span>→</span></a>
+</div>
+</div>
+</div>
+</section>
+<!-- === /aside === -->
+<div class="freeTxtWrapper">
+<article id="freeTxt">
+<div class="foot-area"><div style="text-align: center;">
+<p><span style="font-size: 13px;">官公庁・企業イベント運営のプロフェッショナル</span></p>
+<strong><img alt="株式会社グローパス" class="foot-growpas-logo" src="assets/glowpas-logo.png"/></strong></div></div>
+</article>
+</div>
+<!-- === footer === -->
+<footer>
+<address id="copylight">
+                copyright © 株式会社グローパス｜イベント運営のプロフェッショナル<br class="sp"/>some rights reserved.
+            </address>
+<div id="pagetop" style="display: none;">
+<a>
+<p class="arrow">pagetop</p>
+</a>
+</div>
+<div id="sp_pagetop" style="display: none;">
+<a>
+<div class="lineArrow"></div>
+<p>pagetop</p>
+</a>
+</div>
+</footer>
+<!-- === /footer === -->
+
+<style id="globus-contact-mobile-2col-20260926">
+@media screen and (max-width:560px){
+
+  /* CONTACT：スマホでも2列 */
+  #globus-contact .gc-contact-grid{
+    display:grid !important;
+    grid-template-columns:minmax(0,1fr) minmax(0,1fr) !important;
+    gap:10px !important;
+    width:100% !important;
+    max-width:none !important;
+    margin:0 auto !important;
+  }
+
+  #globus-contact .gc-card{
+    min-width:0 !important;
+    min-height:0 !important;
+    padding:16px 10px 14px !important;
+    border-radius:16px !important;
+    box-sizing:border-box !important;
+  }
+
+  /* アイコン＋タイトル */
+  #globus-contact .gc-card-top{
+    display:block !important;
+    text-align:center !important;
+  }
+
+  #globus-contact .gc-card-icon{
+    width:54px !important;
+    height:54px !important;
+    margin:0 auto 10px !important;
+  }
+
+  #globus-contact .gc-card-icon img{
+    width:100% !important;
+    height:100% !important;
+    object-fit:contain !important;
+  }
+
+  #globus-contact .gc-card-heading{
+    margin:0 0 8px !important;
+    font-size:13px !important;
+    line-height:1.35 !important;
+    text-align:center !important;
+  }
+
+  #globus-contact .gc-card-copy{
+    margin:0 !important;
+    font-size:8.5px !important;
+    line-height:1.65 !important;
+    text-align:center !important;
+  }
+
+  /* ボタン */
+  #globus-contact .gc-card-btn{
+    width:100% !important;
+    min-height:42px !important;
+    margin-top:14px !important;
+    padding:8px 7px !important;
+    gap:5px !important;
+    box-sizing:border-box !important;
+
+    font-size:9px !important;
+    line-height:1.3 !important;
+    white-space:normal !important;
+    text-align:center !important;
+  }
+
+  #globus-contact .gc-line-mini{
+    width:25px !important;
+    height:25px !important;
+    flex:0 0 25px !important;
+    font-size:6.5px !important;
+  }
+}
+</style>
+
+
+<style id="mobile-support-contact-gap-fix-20260926">
+@media screen and (max-width:560px){
+
+  /* SUPPORT直後〜CONTACTまでの不要な空白を消す */
+  #globus-support{
+    margin-bottom:0 !important;
+  }
+
+  #globus-support + .container{
+    display:none !important;
+    height:0 !important;
+    min-height:0 !important;
+    margin:0 !important;
+    padding:0 !important;
+  }
+
+  #globus-contact{
+    margin-top:0 !important;
+  }
+
+  /* CONTACT直前の空asideを含むcontainerも高さを持たせない */
+  main + .container{
+    height:0 !important;
+    min-height:0 !important;
+    margin:0 !important;
+    padding:0 !important;
+  }
+
+  main + .container #blog:empty{
+    display:none !important;
+  }
+}
+</style>
+
+
+<style id="globus-contact-mobile-button-align-20260926">
+@media screen and (max-width:560px){
+
+  /* 左右カードを同じ高さにする */
+  #globus-contact .gc-contact-grid{
+    align-items:stretch !important;
+  }
+
+  #globus-contact .gc-card{
+    display:flex !important;
+    flex-direction:column !important;
+    height:100% !important;
+  }
+
+  /* 上部コンテンツは通常配置 */
+  #globus-contact .gc-card-top{
+    flex:0 0 auto !important;
+  }
+
+  /* ボタンを両カードとも下端に揃える */
+  #globus-contact .gc-card-btn{
+    margin-top:auto !important;
+    position:relative !important;
+    top:auto !important;
+    bottom:auto !important;
+  }
+
+  /* 本文とボタンの最低限の間隔 */
+  #globus-contact .gc-card-top + .gc-card-btn{
+    margin-top:auto !important;
+  }
+}
+</style>
+
+</body></html>
+

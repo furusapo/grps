@@ -3095,5 +3095,39 @@ footer img[src*="glowpas-logo"]{
 }
 </style>
 
+
+<style id="concept-mobile-full-bleed-20260928">
+@media screen and (max-width:768px){
+
+  /* CONCEPT全体を画面左右いっぱいにする */
+  #ydc1.articleBox{
+    width:100vw !important;
+    max-width:none !important;
+
+    margin-left:calc(50% - 50vw) !important;
+    margin-right:calc(50% - 50vw) !important;
+
+    border-left:0 !important;
+    border-right:0 !important;
+  }
+
+  /* 背景も端まで表示 */
+  #ydc1{
+    background-size:cover !important;
+    background-position:center top !important;
+  }
+
+  /* セクション自体の外側余白を消す */
+  #ydc1 .concept-main,
+  #ydc1 .concept-approach{
+    width:100% !important;
+    max-width:none !important;
+    margin-left:0 !important;
+    margin-right:0 !important;
+  }
+
+}
+</style>
+
 </body></html>
 

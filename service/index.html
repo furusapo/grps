@@ -1675,6 +1675,143 @@ main{
 }
 </style>
 
+
+<style id="service-mobile-hero-no-overlap-final">
+@media (max-width:768px){
+
+  /* HERO全体 */
+  .service-page-hero{
+    min-height:0 !important;
+    height:auto !important;
+    padding:38px 28px 34px !important;
+    overflow:hidden !important;
+  }
+
+  .service-page-hero-inner{
+    width:100% !important;
+    height:auto !important;
+    margin:0 !important;
+    padding:0 !important;
+    display:block !important;
+  }
+
+  .service-page-heading{
+    position:relative !important;
+    width:100% !important;
+    max-width:none !important;
+    min-height:150px !important;
+    margin:0 !important;
+    padding:0 !important;
+    display:block !important;
+  }
+
+  /* 左：サービス内容 */
+  .service-page-hero h1{
+    position:relative !important;
+    width:48% !important;
+    min-height:110px !important;
+    margin:0 !important;
+    padding:5px 0 0 31px !important;
+    color:#073F7D !important;
+    font-size:18px !important;
+    line-height:1.3 !important;
+    font-weight:700 !important;
+    white-space:nowrap !important;
+    z-index:3 !important;
+  }
+
+  .service-page-hero h1::before{
+    left:0 !important;
+    top:16px !important;
+    width:22px !important;
+    height:2px !important;
+  }
+
+  .service-page-hero h1::after{
+    left:22px !important;
+    top:48px !important;
+    font-size:35px !important;
+  }
+
+  /* 右：イベント写真 */
+  .service-page-hero-visual{
+    display:block !important;
+    position:absolute !important;
+    top:15px !important;
+    right:-28px !important;
+    bottom:auto !important;
+    width:50% !important;
+    height:135px !important;
+    opacity:1 !important;
+    overflow:hidden !important;
+    clip-path:ellipse(85% 80% at 82% 50%) !important;
+    -webkit-clip-path:ellipse(85% 80% at 82% 50%) !important;
+    z-index:2 !important;
+  }
+
+  .service-page-hero-visual img{
+    width:100% !important;
+    height:100% !important;
+    object-fit:cover !important;
+    object-position:center center !important;
+  }
+
+  .service-page-hero-visual::after{
+    background:linear-gradient(
+      90deg,
+      rgba(255,255,255,.45) 0%,
+      rgba(255,255,255,0) 30%
+    ) !important;
+  }
+
+  /* 説明文：画像より完全に下 */
+  .service-page-lead{
+    position:relative !important;
+    width:100% !important;
+    max-width:none !important;
+    clear:both !important;
+    margin:14px 0 0 !important;
+    padding:0 !important;
+    color:#073F7D !important;
+    font-size:13px !important;
+    line-height:1.8 !important;
+    font-weight:700 !important;
+    letter-spacing:.01em !important;
+    text-align:left !important;
+    z-index:5 !important;
+  }
+
+  .service-page-lead br{
+    display:none !important;
+  }
+}
+
+@media (max-width:430px){
+  .service-page-hero{
+    padding:34px 24px 30px !important;
+  }
+
+  .service-page-heading{
+    min-height:140px !important;
+  }
+
+  .service-page-hero h1{
+    font-size:17px !important;
+  }
+
+  .service-page-hero-visual{
+    right:-24px !important;
+    width:51% !important;
+    height:125px !important;
+  }
+
+  .service-page-lead{
+    margin-top:10px !important;
+    font-size:12.5px !important;
+  }
+}
+</style>
+
 </head>
 <body>
 <header class="service-copy-header" id="gp-unified-header">

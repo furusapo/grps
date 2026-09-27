@@ -66,3 +66,95 @@
 #gp-unified-header .service-copy-nav-inner > a:not([href*="recruit/index.html"]){font-weight:600!important}
 #gp-unified-header .service-copy-nav-inner > a[href*="recruit/index.html"],
 #gp-unified-header .service-copy-nav-inner > a[href*="recruit/index.html"]::before{font-weight:800!important}
+
+/* ==================================================
+   MOBILE HEADER FINAL
+   会社概要 + お問い合わせを上段右側に表示
+   ================================================== */
+@media screen and (max-width:768px){
+
+  #gp-unified-header .service-copy-header-main{
+    display:flex !important;
+    align-items:center !important;
+    justify-content:space-between !important;
+    gap:10px !important;
+  }
+
+  /* 左：ロゴ・キャッチコピー */
+  #gp-unified-header .service-copy-brand{
+    flex:1 1 auto !important;
+    min-width:0 !important;
+  }
+
+  /* 右側リンクをスマホでも復活 */
+  #gp-unified-header .service-copy-links{
+    display:flex !important;
+    flex:0 0 auto !important;
+    align-items:center !important;
+    justify-content:flex-end !important;
+    gap:8px !important;
+  }
+
+  /* 一旦リンクを表示 */
+  #gp-unified-header .service-copy-links > a{
+    display:flex !important;
+    align-items:center !important;
+    justify-content:center !important;
+  }
+
+  /* アクセスだけスマホでは不要 */
+  #gp-unified-header .service-copy-links > a[href*="#access"]{
+    display:none !important;
+  }
+
+  /* 会社概要 */
+  #gp-unified-header .service-copy-links > a[href*="company/index.html"]:not([href*="#access"]){
+    padding:8px 4px !important;
+
+    color:#073f7d !important;
+    background:transparent !important;
+
+    font-size:11px !important;
+    line-height:1.2 !important;
+    font-weight:700 !important;
+    white-space:nowrap !important;
+
+    border:0 !important;
+    border-radius:0 !important;
+  }
+
+  /* お問い合わせ */
+  #gp-unified-header .service-copy-contact{
+    padding:11px 14px !important;
+    min-width:0 !important;
+
+    font-size:11px !important;
+    line-height:1.2 !important;
+    font-weight:700 !important;
+    white-space:nowrap !important;
+
+    border-radius:12px !important;
+  }
+}
+
+/* 小さいスマホでも収まるよう微調整 */
+@media screen and (max-width:430px){
+
+  #gp-unified-header .service-copy-header-main{
+    gap:6px !important;
+  }
+
+  #gp-unified-header .service-copy-links{
+    gap:5px !important;
+  }
+
+  #gp-unified-header .service-copy-links > a[href*="company/index.html"]:not([href*="#access"]){
+    font-size:10px !important;
+    padding:7px 2px !important;
+  }
+
+  #gp-unified-header .service-copy-contact{
+    font-size:10px !important;
+    padding:10px 11px !important;
+  }
+}

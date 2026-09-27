@@ -1328,6 +1328,70 @@ main{
 }
 </style>
 
+
+<style id="service-mobile-lead-below-final">
+@media (max-width:768px){
+
+  /* 上段はタイトルエリア */
+  .service-page-heading{
+    grid-template-columns:40% minmax(0,1fr) !important;
+    grid-template-rows:auto auto !important;
+    column-gap:18px !important;
+  }
+
+  /* タイトルは左上のまま */
+  .service-page-hero h1{
+    grid-column:1 !important;
+    grid-row:1 !important;
+  }
+
+  /* 説明文をタイトル・SERVICEの下へ移動 */
+  .service-page-lead{
+    grid-column:1 / -1 !important;
+    grid-row:2 !important;
+
+    width:100% !important;
+    max-width:none !important;
+
+    margin:12px 0 0 !important;
+    padding:0 !important;
+
+    color:#324b5c !important;
+    font-size:13px !important;
+    line-height:1.85 !important;
+    font-weight:400 !important;
+    letter-spacing:.02em !important;
+    text-align:left !important;
+  }
+
+  .service-page-lead br{
+    display:none !important;
+  }
+
+  .service-page-hero{
+    min-height:370px !important;
+  }
+}
+
+@media (max-width:430px){
+
+  .service-page-heading{
+    grid-template-columns:40% minmax(0,1fr) !important;
+    column-gap:16px !important;
+  }
+
+  .service-page-lead{
+    margin-top:10px !important;
+    font-size:12.5px !important;
+    line-height:1.8 !important;
+  }
+
+  .service-page-hero{
+    min-height:350px !important;
+  }
+}
+</style>
+
 </head>
 <body>
 <header class="service-copy-header" id="gp-unified-header">

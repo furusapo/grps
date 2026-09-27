@@ -2950,3 +2950,69 @@ main{
 
 }
 </style>
+
+<style id="overview-mobile-two-columns-final">
+@media (max-width:560px){
+
+  /* 01・02を横並び */
+  .overview-grid{
+    display:grid !important;
+    grid-template-columns:repeat(2, minmax(0, 1fr)) !important;
+    gap:10px !important;
+    align-items:stretch !important;
+  }
+
+  .overview-card{
+    width:100% !important;
+    min-width:0 !important;
+    margin:0 !important;
+    border-radius:14px !important;
+    overflow:hidden !important;
+  }
+
+  /* 写真 */
+  .overview-photo{
+    width:100% !important;
+    height:120px !important;
+    object-fit:cover !important;
+    display:block !important;
+  }
+
+  /* 白い本文部分 */
+  .overview-body{
+    padding:16px 12px 18px !important;
+  }
+
+  /* 01 / 02 */
+  .overview-no{
+    font-size:28px !important;
+    line-height:1 !important;
+    margin:0 0 6px !important;
+  }
+
+  /* EVENT & PROJECT */
+  .overview-en{
+    font-size:8px !important;
+    line-height:1.35 !important;
+    letter-spacing:.08em !important;
+    margin:0 0 12px !important;
+    white-space:nowrap !important;
+  }
+
+  /* カードタイトル */
+  .overview-body h3{
+    font-size:14px !important;
+    line-height:1.5 !important;
+    margin:0 0 10px !important;
+    letter-spacing:0 !important;
+  }
+
+  /* 説明文 */
+  .overview-body p{
+    font-size:10px !important;
+    line-height:1.7 !important;
+    margin:0 !important;
+    letter-spacing:0 !important;
+  }
+}
+</style>

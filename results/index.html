@@ -794,6 +794,141 @@ img{
 }
 </style>
 
+
+<style id="results-contact-recruit-bg-20260929">
+/* CONTACT：採用情報ページと同じ円形背景デザイン */
+.contact-area{
+  position:relative !important;
+  overflow:hidden !important;
+  width:100% !important;
+  max-width:none !important;
+  margin:0 !important;
+  padding:100px 30px 110px !important;
+
+  /* 角丸カードを廃止 */
+  border-radius:0 !important;
+  box-shadow:none !important;
+  border:0 !important;
+  background:
+    linear-gradient(135deg,#fff 0%,#fbfdfe 100%) !important;
+}
+
+/* 左上の大きな淡い水色の円 */
+.contact-area::before{
+  content:"" !important;
+  position:absolute !important;
+  z-index:0 !important;
+  width:520px !important;
+  height:520px !important;
+  left:-300px !important;
+  top:-290px !important;
+  border-radius:50% !important;
+  background:rgba(219,244,252,.72) !important;
+  pointer-events:none !important;
+}
+
+/* 右下の大きな淡い水色の円 */
+.contact-area::after{
+  content:"" !important;
+  position:absolute !important;
+  z-index:0 !important;
+  width:680px !important;
+  height:680px !important;
+  right:-390px !important;
+  bottom:-470px !important;
+  border-radius:50% !important;
+  background:rgba(222,246,253,.74) !important;
+  pointer-events:none !important;
+}
+
+/* CONTACTの中身を円より前へ */
+.contact-area > *{
+  position:relative !important;
+  z-index:2 !important;
+}
+
+/* 中央の内容幅 */
+.contact-area .contact-inner,
+.contact-area .inner{
+  position:relative !important;
+  z-index:2 !important;
+  width:min(900px,100%) !important;
+  max-width:900px !important;
+  margin-left:auto !important;
+  margin-right:auto !important;
+}
+
+/* CONTACT英字 */
+.contact-area .small{
+  display:flex !important;
+  flex-direction:column !important;
+  align-items:center !important;
+  gap:11px !important;
+  margin-bottom:28px !important;
+}
+
+/* 英字下のライン */
+.contact-area .small::after{
+  content:"" !important;
+  display:block !important;
+  width:58px !important;
+  height:2px !important;
+  flex:0 0 2px !important;
+  border-radius:999px !important;
+  background:#1590b0 !important;
+}
+
+/* Android / iPhone */
+@media (max-width:768px){
+  .contact-area{
+    padding:72px 22px 82px !important;
+  }
+
+  .contact-area::before{
+    width:330px !important;
+    height:330px !important;
+    left:-205px !important;
+    top:-170px !important;
+  }
+
+  .contact-area::after{
+    width:430px !important;
+    height:430px !important;
+    right:-270px !important;
+    bottom:-285px !important;
+  }
+
+  .contact-area .small{
+    gap:9px !important;
+    margin-bottom:24px !important;
+  }
+
+  .contact-area .small::after{
+    width:48px !important;
+  }
+}
+
+@media (max-width:430px){
+  .contact-area{
+    padding:62px 18px 72px !important;
+  }
+
+  .contact-area::before{
+    width:280px !important;
+    height:280px !important;
+    left:-180px !important;
+    top:-145px !important;
+  }
+
+  .contact-area::after{
+    width:360px !important;
+    height:360px !important;
+    right:-235px !important;
+    bottom:-240px !important;
+  }
+}
+</style>
+
 </head>
 <body>
 <header class="service-copy-header" id="gp-unified-header">

@@ -3028,15 +3028,29 @@ button,input,select,textarea{font:inherit;}
 <link rel="stylesheet" href="assets/footer.css?v=20260929">
 
 
-<style id="home-mobile-news-clean-20260929">
+<style id="home-mobile-news-final-20260929">
 @media screen and (max-width:768px){
 
-  #newsTopics{
+  /* HEROの下に別途余白を作らない */
+  #globus-top-hero{
+    margin-bottom:0 !important;
+  }
+
+  /* NEWSを包む旧テンプレートcontainerの余白を完全解除 */
+  .home-news-container{
+    width:100% !important;
+    max-width:none !important;
+    margin:0 !important;
+    padding:0 !important;
+  }
+
+  /* NEWS自身だけで天地の余白を管理 */
+  .home-news-container #newsTopics{
     width:calc(100% - 36px) !important;
     max-width:none !important;
 
     margin:0 auto !important;
-    padding:42px 0 !important;
+    padding:48px 0 !important;
 
     height:auto !important;
     min-height:0 !important;
@@ -3080,7 +3094,6 @@ button,input,select,textarea{font:inherit;}
 
     font-size:11px !important;
     line-height:1.55 !important;
-
     white-space:nowrap !important;
   }
 
@@ -3142,8 +3155,7 @@ button,input,select,textarea{font:inherit;}
 <a class="gph-btn gph-btn-outline" href="contact/index.html">お問い合わせ <span>→</span></a>
 </div></div></section>
 <!-- /NEW TOP HERO -->
-<div class="container">
-
+<div class="container home-news-container">
 <article id="newsTopics">
 <p class="heading">NEWS</p>
 <ul class="list">

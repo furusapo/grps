@@ -929,6 +929,41 @@ img{
 }
 </style>
 
+
+<style id="results-contact-fullbleed-20260929">
+/* CONTACT：左右の余白をなくして画面幅いっぱいに */
+.contact-area{
+  width:100vw !important;
+  max-width:none !important;
+  margin-left:calc(50% - 50vw) !important;
+  margin-right:calc(50% - 50vw) !important;
+  box-sizing:border-box !important;
+}
+
+/* 外側コンテナの横幅制限をCONTACTだけ解除 */
+.contact-area,
+.contact-area-wrapper,
+.contact-section{
+  max-width:none !important;
+}
+
+/* 中身の読みやすい幅は維持 */
+.contact-area .contact-inner,
+.contact-area .inner{
+  width:min(900px, calc(100% - 40px)) !important;
+  max-width:900px !important;
+  margin-left:auto !important;
+  margin-right:auto !important;
+}
+
+@media(max-width:768px){
+  .contact-area .contact-inner,
+  .contact-area .inner{
+    width:100% !important;
+  }
+}
+</style>
+
 </head>
 <body>
 <header class="service-copy-header" id="gp-unified-header">

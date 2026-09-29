@@ -303,3 +303,204 @@
   }
 }
 
+
+/* =========================================================
+   MOBILE HAMBURGER MENU
+   PC版には影響させない
+   ========================================================= */
+
+.gp-mobile-menu-button{
+  display:none;
+}
+
+@media screen and (max-width:768px){
+
+  /* 上段 */
+  #gp-unified-header .service-copy-header-main{
+    width:100% !important;
+    min-height:72px !important;
+    padding:10px 16px !important;
+    margin:0 !important;
+    display:flex !important;
+    align-items:center !important;
+    justify-content:space-between !important;
+    gap:12px !important;
+  }
+
+  /* ロゴ＋キャッチコピー */
+  #gp-unified-header .service-copy-brand{
+    display:flex !important;
+    align-items:center !important;
+    flex:1 1 auto !important;
+    min-width:0 !important;
+    gap:9px !important;
+  }
+
+  #gp-unified-header .service-copy-brand img{
+    width:auto !important;
+    height:44px !important;
+    max-width:112px !important;
+    flex:0 0 auto !important;
+  }
+
+  /* キャッチコピーは一行 */
+  #gp-unified-header .service-copy-brand-text{
+    display:block !important;
+    min-width:0 !important;
+    max-width:none !important;
+    padding-left:9px !important;
+    border-left:1px solid #d2dde4 !important;
+    font-size:11px !important;
+    line-height:1.35 !important;
+    font-weight:600 !important;
+    letter-spacing:0 !important;
+    white-space:nowrap !important;
+    word-break:keep-all !important;
+    overflow-wrap:normal !important;
+  }
+
+  /* 既存の会社概要・アクセス・お問い合わせは上段から隠す */
+  #gp-unified-header .service-copy-links{
+    display:none !important;
+  }
+
+  /* ハンバーガーボタン */
+  #gp-unified-header .gp-mobile-menu-button{
+    display:flex !important;
+    flex:0 0 44px !important;
+    width:44px !important;
+    height:44px !important;
+    padding:0 !important;
+    margin:0 !important;
+    border:0 !important;
+    border-radius:10px !important;
+    background:transparent !important;
+    align-items:center !important;
+    justify-content:center !important;
+    flex-direction:column !important;
+    gap:5px !important;
+    cursor:pointer !important;
+    -webkit-tap-highlight-color:transparent;
+  }
+
+  #gp-unified-header .gp-mobile-menu-button span{
+    display:block !important;
+    width:24px !important;
+    height:2px !important;
+    margin:0 !important;
+    padding:0 !important;
+    border:0 !important;
+    border-radius:2px !important;
+    background:#073f7d !important;
+    transition:
+      transform .25s ease,
+      opacity .2s ease !important;
+  }
+
+  /* 通常時はメニューを閉じる */
+  #gp-unified-header .service-copy-nav{
+    display:none !important;
+    width:100% !important;
+    border-top:1px solid #edf2f5 !important;
+    background:#fff !important;
+  }
+
+  /* 開いた時 */
+  #gp-unified-header.gp-menu-open .service-copy-nav{
+    display:block !important;
+  }
+
+  #gp-unified-header .service-copy-nav-inner{
+    width:100% !important;
+    max-width:none !important;
+    min-height:0 !important;
+    margin:0 !important;
+    padding:10px 20px 18px !important;
+
+    display:flex !important;
+    flex-direction:column !important;
+    align-items:stretch !important;
+    gap:0 !important;
+
+    overflow:visible !important;
+    white-space:normal !important;
+  }
+
+  #gp-unified-header .service-copy-nav-inner > a{
+    display:flex !important;
+    width:100% !important;
+    min-height:48px !important;
+    padding:13px 4px !important;
+    align-items:center !important;
+
+    color:#123b66 !important;
+    font-size:14px !important;
+    line-height:1.4 !important;
+    font-weight:600 !important;
+
+    border-bottom:1px solid #edf2f5 !important;
+
+    white-space:normal !important;
+    -webkit-text-fill-color:currentColor !important;
+    background:none !important;
+  }
+
+  /* 採用情報のPC用RECRUIT装飾をスマホメニューでは解除 */
+  #gp-unified-header
+  .service-copy-nav-inner
+  > a[href*="recruit/index.html"]::before{
+    display:none !important;
+  }
+
+  /* JSで追加する追加メニュー */
+  #gp-unified-header .gp-mobile-extra{
+    display:flex !important;
+  }
+
+  /* 開いている時：三本線 → × */
+  #gp-unified-header.gp-menu-open
+  .gp-mobile-menu-button span:nth-child(1){
+    transform:translateY(7px) rotate(45deg) !important;
+  }
+
+  #gp-unified-header.gp-menu-open
+  .gp-mobile-menu-button span:nth-child(2){
+    opacity:0 !important;
+  }
+
+  #gp-unified-header.gp-menu-open
+  .gp-mobile-menu-button span:nth-child(3){
+    transform:translateY(-7px) rotate(-45deg) !important;
+  }
+}
+
+/* 小さいAndroid等 */
+@media screen and (max-width:380px){
+
+  #gp-unified-header .service-copy-header-main{
+    padding-left:12px !important;
+    padding-right:10px !important;
+    gap:7px !important;
+  }
+
+  #gp-unified-header .service-copy-brand{
+    gap:6px !important;
+  }
+
+  #gp-unified-header .service-copy-brand img{
+    height:39px !important;
+    max-width:98px !important;
+  }
+
+  #gp-unified-header .service-copy-brand-text{
+    padding-left:6px !important;
+    font-size:10px !important;
+  }
+
+  #gp-unified-header .gp-mobile-menu-button{
+    flex-basis:40px !important;
+    width:40px !important;
+    height:40px !important;
+  }
+}
+

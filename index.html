@@ -2172,98 +2172,6 @@ footer img[src*="glowpas-logo"]{
 </style>
 
 
-<style id="home-mobile-news-compact-20260926">
-@media screen and (max-width:768px){
-
-  /* NEWSセクション全体をコンパクトに */
-  #newsTopics{
-    width:calc(100% - 36px) !important;
-    margin:0 auto !important;
-    padding:28px 0 32px !important;
-  }
-
-  /* NEWS見出し */
-  #newsTopics .heading{
-    margin:0 0 24px !important;
-    font-size:20px !important;
-    line-height:1.15 !important;
-    letter-spacing:.20em !important;
-  }
-
-  /* 一覧 */
-  #newsTopics .list{
-    margin:0 !important;
-    padding:0 !important;
-  }
-
-  #newsTopics .list li{
-    display:grid !important;
-    grid-template-columns:82px minmax(0,1fr) !important;
-    align-items:start !important;
-    column-gap:10px !important;
-
-    margin:0 !important;
-    padding:0 0 14px !important;
-
-    font-size:11px !important;
-    line-height:1.55 !important;
-  }
-
-  #newsTopics .list li:last-child{
-    padding-bottom:0 !important;
-  }
-
-  /* 日付 */
-  #newsTopics .day{
-    width:auto !important;
-    margin:0 !important;
-    padding:0 !important;
-
-    font-size:11px !important;
-    line-height:1.55 !important;
-    letter-spacing:.02em !important;
-    white-space:nowrap !important;
-  }
-
-  /* NEWS本文 */
-  #newsTopics .news-title{
-    margin:0 !important;
-    padding:0 !important;
-
-    font-size:11px !important;
-    line-height:1.55 !important;
-    letter-spacing:.02em !important;
-  }
-}
-</style>
-
-
-
-<style id="home-mobile-news-spacing-tight-20260926">
-@media screen and (max-width:768px){
-
-  /* NEWS全体：天地をコンパクトに */
-  #newsTopics{
-    padding:14px 0 16px !important;
-  }
-
-  /* NEWS見出し下の余白 */
-  #newsTopics .heading{
-    margin:0 0 14px !important;
-  }
-
-  /* 各ニュース間の余白 */
-  #newsTopics .list li{
-    padding-bottom:8px !important;
-  }
-
-  #newsTopics .list li:last-child{
-    padding-bottom:0 !important;
-  }
-}
-</style>
-
-
 <style id="top-mobile-heading-unify-20260926">
 /* ==================================================
    TOP MOBILE HEADING
@@ -3119,14 +3027,83 @@ button,input,select,textarea{font:inherit;}
 <script src="assets/header.js?v=20260929" defer></script>
 <link rel="stylesheet" href="assets/footer.css?v=20260929">
 
-<style id="news-mobile-vertical-balance-20260929">
-/* NEWS：スマホ版の天地余白を均等に */
+
+<style id="home-mobile-news-final-20260929">
+/* =========================================================
+   HOME NEWS - MOBILE FINAL
+   iPhone / Android 共通
+   ========================================================= */
 @media screen and (max-width:768px){
+
+  /* HERO直後に残っている旧・空要素を無効化 */
+  #siteDesc:empty{
+    display:none !important;
+    height:0 !important;
+    min-height:0 !important;
+    margin:0 !important;
+    padding:0 !important;
+  }
+
+  /* NEWS全体 */
   #newsTopics{
-    padding-top:55px !important;
-    padding-bottom:55px !important;
-    margin-top:0 !important;
-    margin-bottom:0 !important;
+    width:calc(100% - 36px) !important;
+    max-width:none !important;
+    margin:0 auto !important;
+    padding:48px 0 !important;
+    min-height:0 !important;
+    height:auto !important;
+  }
+
+  /* NEWS見出し */
+  #newsTopics .heading{
+    margin:0 0 22px !important;
+    padding:0 !important;
+    font-size:20px !important;
+    line-height:1.15 !important;
+    letter-spacing:.20em !important;
+  }
+
+  /* ニュース一覧 */
+  #newsTopics .list{
+    margin:0 !important;
+    padding:0 !important;
+  }
+
+  #newsTopics .list li{
+    display:grid !important;
+    grid-template-columns:82px minmax(0,1fr) !important;
+    align-items:start !important;
+    column-gap:10px !important;
+    margin:0 !important;
+    padding:0 0 10px !important;
+    font-size:11px !important;
+    line-height:1.55 !important;
+  }
+
+  #newsTopics .list li:last-child{
+    padding-bottom:0 !important;
+  }
+
+  #newsTopics .day{
+    width:auto !important;
+    margin:0 !important;
+    padding:0 !important;
+    font-size:11px !important;
+    line-height:1.55 !important;
+    letter-spacing:.02em !important;
+    white-space:nowrap !important;
+  }
+
+  #newsTopics .news-title{
+    min-width:0 !important;
+    margin:0 !important;
+    padding:0 !important;
+    font-size:11px !important;
+    line-height:1.55 !important;
+    letter-spacing:.02em !important;
+    white-space:normal !important;
+    word-break:normal !important;
+    overflow-wrap:break-word !important;
   }
 }
 </style>

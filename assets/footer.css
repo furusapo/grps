@@ -143,3 +143,15 @@
   }
 }
 
+
+/* Footer optical spacing */
+#gp-unified-footer .gp-footer-logo{
+  margin-bottom:28px !important;
+}
+
+@media screen and (max-width:768px){
+  #gp-unified-footer .gp-footer-logo{
+    margin-bottom:26px !important;
+  }
+}
+

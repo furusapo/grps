@@ -1623,6 +1623,7 @@ footer img[src*="glowpas-logo"]{
 
 /* ---------- smartphone ---------- */
 @media(max-width:767px){
+
   #ydc1.articleBox{
     width:100%!important;
     aspect-ratio:auto!important;
@@ -1632,6 +1633,7 @@ footer img[src*="glowpas-logo"]{
     background-size:cover!important;
     background-position:center top!important;
   }
+
   #ydc1 .concept-main,
   #ydc1 .concept-approach{
     position:relative!important;
@@ -1642,23 +1644,102 @@ footer img[src*="glowpas-logo"]{
     min-height:0!important;
     transform:none!important;
   }
+
   #ydc1 .concept-main{
-    padding:58px 22px 50px!important;
+    padding:58px 20px 50px!important;
     background:rgba(255,255,255,.58)!important;
   }
-  #ydc1 .concept-values{
-    flex-direction:column!important;
-    gap:14px!important;
-    margin:30px auto!important;
+
+  /* ---------- 上の説明文 ---------- */
+
+  #ydc1 .concept-lead{
+    width:100%!important;
+    max-width:390px!important;
+    margin-left:auto!important;
+    margin-right:auto!important;
+    text-align:center!important;
+    white-space:normal!important;
   }
-  #ydc1 .concept-values span{width:36px!important;height:1px!important}
-  #ydc1 .concept-lead br,
-  #ydc1 .concept-bottom br,
-  #ydc1 .approach-text br{display:none!important}
+
+  #ydc1 .concept-mobile-line{
+    display:block!important;
+  }
+
+  /* ---------- 3つの価値 ---------- */
+
+  #ydc1 .concept-values{
+    display:grid!important;
+    grid-template-columns:
+      minmax(0,1fr)
+      1px
+      minmax(0,1fr)
+      1px
+      minmax(0,1fr)!important;
+
+    align-items:center!important;
+
+    width:100%!important;
+    max-width:390px!important;
+
+    margin:24px auto 26px!important;
+    padding:0!important;
+    gap:6px!important;
+  }
+
+  #ydc1 .concept-values strong{
+    display:block!important;
+    min-width:0!important;
+
+    margin:0!important;
+    padding:0!important;
+
+    color:#0878a7!important;
+    font-size:clamp(9px,2.55vw,11px)!important;
+    line-height:1.35!important;
+    font-weight:700!important;
+    letter-spacing:-.02em!important;
+
+    text-align:center!important;
+    white-space:nowrap!important;
+  }
+
+  #ydc1 .concept-values span{
+    display:block!important;
+    width:1px!important;
+    height:22px!important;
+
+    margin:0 auto!important;
+    padding:0!important;
+
+    background:rgba(8,120,167,.55)!important;
+  }
+
+  /* ---------- 下の文章 ---------- */
+
+  #ydc1 .concept-bottom{
+    width:100%!important;
+    max-width:390px!important;
+    margin:0 auto!important;
+    padding:0!important;
+    text-align:center!important;
+  }
+
+  #ydc1 .concept-bottom p{
+    margin-left:auto!important;
+    margin-right:auto!important;
+  }
+
+  #ydc1 .concept-bottom p + p{
+    margin-top:10px!important;
+  }
+
+  /* ---------- OUR APPROACH ---------- */
+
   #ydc1 .concept-approach{
     padding:58px 24px 68px!important;
     background:rgba(240,249,255,.84)!important;
   }
+
   #ydc1 .concept-approach-copy,
   #ydc1 .concept-approach-message{
     position:relative!important;
@@ -1668,10 +1749,27 @@ footer img[src*="glowpas-logo"]{
     max-width:620px!important;
     margin:0 auto!important;
   }
-  #ydc1 .concept-approach-message{margin-top:42px!important}
-  #ydc1 .approach-title{font-size:28px!important}
-  #ydc1 .concept-approach-message p{font-size:26px!important}
-  #ydc1 .approach-side-label{margin-bottom:28px!important}
+
+  #ydc1 .concept-approach-message{
+    margin-top:42px!important;
+  }
+
+  #ydc1 .approach-title{
+    font-size:28px!important;
+  }
+
+  #ydc1 .concept-approach-message p{
+    font-size:26px!important;
+  }
+
+  #ydc1 .approach-side-label{
+    margin-bottom:28px!important;
+  }
+
+  /* PC用brはスマホでは使用しない */
+  #ydc1 .approach-text br{
+    display:none!important;
+  }
 }
 </style>
 
@@ -2174,128 +2272,6 @@ footer img[src*="glowpas-logo"]{
     line-height:1.85 !important;
   }
 
-}
-</style>
-
-
-<style id="home-mobile-concept-values-horizontal-20260926">
-@media screen and (max-width:768px){
-
-  #ydc1 .concept-values{
-    display:grid !important;
-    grid-template-columns:minmax(0,1fr) 1px minmax(0,1fr) 1px minmax(0,1fr) !important;
-    align-items:center !important;
-
-    width:calc(100% - 32px) !important;
-    max-width:none !important;
-    margin:22px auto !important;
-    padding:0 !important;
-    gap:8px !important;
-  }
-
-  #ydc1 .concept-values strong{
-    display:block !important;
-    margin:0 !important;
-    padding:0 !important;
-
-    color:#0878a7 !important;
-    font-size:10px !important;
-    font-weight:700 !important;
-    line-height:1.45 !important;
-    letter-spacing:0 !important;
-    text-align:center !important;
-    white-space:nowrap !important;
-  }
-
-  /* 既存の横線を、ラフ通りの縦線へ */
-  #ydc1 .concept-values span{
-    display:block !important;
-    width:1px !important;
-    height:24px !important;
-    margin:0 auto !important;
-    padding:0 !important;
-    background:rgba(8,120,167,.55) !important;
-  }
-}
-</style>
-
-
-<style id="home-mobile-concept-balance-final-20260926">
-@media screen and (max-width:768px){
-
-  /* CONCEPT上段全体 */
-  #ydc1 .concept-main{
-    box-sizing:border-box !important;
-    padding-left:24px !important;
-    padding-right:24px !important;
-  }
-
-  /* タイトル */
-  #ydc1 .concept-title{
-    max-width:340px !important;
-    margin-left:auto !important;
-    margin-right:auto !important;
-    line-height:1.45 !important;
-  }
-
-  /* タイトル直下の説明 */
-  #ydc1 .concept-lead{
-    width:100% !important;
-    max-width:350px !important;
-    margin-left:auto !important;
-    margin-right:auto !important;
-  }
-
-  /* 3つの価値 */
-  #ydc1 .concept-values{
-    display:grid !important;
-    grid-template-columns:minmax(0,1fr) 1px minmax(0,1fr) 1px minmax(0,1fr) !important;
-    align-items:center !important;
-
-    width:100% !important;
-    max-width:350px !important;
-
-    margin:24px auto 26px !important;
-    padding:0 !important;
-    gap:7px !important;
-  }
-
-  #ydc1 .concept-values strong{
-    display:block !important;
-    margin:0 !important;
-    padding:0 !important;
-
-    font-size:9px !important;
-    line-height:1.35 !important;
-    letter-spacing:-0.02em !important;
-    font-weight:700 !important;
-    text-align:center !important;
-    white-space:nowrap !important;
-  }
-
-  #ydc1 .concept-values span{
-    display:block !important;
-    width:1px !important;
-    height:20px !important;
-    margin:0 auto !important;
-    background:rgba(8,120,167,.55) !important;
-  }
-
-  /* 下側本文 */
-  #ydc1 .concept-bottom{
-    width:100% !important;
-    max-width:350px !important;
-    margin:0 auto !important;
-  }
-
-  #ydc1 .concept-bottom p{
-    margin-left:auto !important;
-    margin-right:auto !important;
-  }
-
-  #ydc1 .concept-bottom p + p{
-    margin-top:10px !important;
-  }
 }
 </style>
 
@@ -2830,22 +2806,7 @@ button,input,select,textarea{font:inherit;}
     overflow-wrap:break-word!important;
   }
 
-  /* Three values remain horizontal, but can never push outside Android viewports. */
-  #ydc1 .concept-values{
-    display:grid!important;
-    grid-template-columns:minmax(0,1fr) 1px minmax(0,1fr) 1px minmax(0,1fr)!important;
-    align-items:center!important;
-    gap:8px!important;
-    width:100%!important;
-    max-width:100%!important;
-  }
-  #ydc1 .concept-values strong{
-    min-width:0!important;
-    white-space:normal!important;
-    word-break:keep-all!important;
-    overflow-wrap:break-word!important;
-    text-align:center!important;
-  }
+
 
   /* OUR APPROACH message: avoid fixed 50% width + nowrap overflow on Android. */
   #ydc1 .concept-approach-message{
@@ -2876,13 +2837,10 @@ button,input,select,textarea{font:inherit;}
 
 @media screen and (max-width:480px){
   #ydc1 .concept-main{padding-left:20px!important;padding-right:20px!important;}
-  #ydc1 .concept-values{gap:5px!important;}
-  #ydc1 .concept-values strong{font-size:clamp(10px,2.8vw,13px)!important;line-height:1.45!important;}
 
 }
 
 @media screen and (max-width:360px){
-  #ydc1 .concept-values strong{font-size:9.5px!important;}
   #ydc1 .concept-approach{padding-left:18px!important;padding-right:18px!important;}
   #ydc1 .concept-approach-message{width:56%!important;max-width:56%!important;}
 }
@@ -3082,25 +3040,28 @@ button,input,select,textarea{font:inherit;}
     <h2 class="concept-title">想いを、成功という体験へ。</h2>
 
     <p class="concept-lead">
-      グローパスは、官公庁・自治体・企業のイベントを<br>
-      企画から運営まで一貫して支援するプロフェッショナルチームです。
+      <span class="concept-mobile-line">グローパスは、官公庁・自治体・企業のイベントを</span>
+      <span class="concept-mobile-line">企画から運営まで一貫して支援する</span>
+      <span class="concept-mobile-line">プロフェッショナルチームです</span>
     </p>
 
     <div class="concept-values">
-      <strong>人と人をつなぐ。</strong>
+      <strong>人と人をつなぐ</strong>
       <span></span>
-      <strong>企業と社会をつなぐ。</strong>
+      <strong>企業と社会をつなぐ</strong>
       <span></span>
-      <strong>想いと未来をつなぐ。</strong>
+      <strong>想いと未来をつなぐ</strong>
     </div>
 
     <div class="concept-bottom">
       <p>
-        私たちが届けたいのは、イベントそのものではなく、その先にある価値です。
+        <span class="concept-mobile-line">私たちが届けたいのは、イベントそのものではなく</span>
+        <span class="concept-mobile-line">その先にある価値です</span>
       </p>
       <p>
-        「Grow（成長）」と「Pass（つなぐ・受け渡す）」の名のもとに、<br>
-        確かな運営力と柔軟な対応力で、お客様の想いを成功という体験へと導きます。
+        <span class="concept-mobile-line">「Grow（成長）」と「Pass（つなぐ・受け渡す）」の名のもとに</span>
+        <span class="concept-mobile-line">確かな運営力と柔軟な対応力で、お客様の想いを</span>
+        <span class="concept-mobile-line">成功という体験へと導きます</span>
       </p>
     </div>
   </div>

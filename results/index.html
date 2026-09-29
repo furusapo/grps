@@ -1633,6 +1633,83 @@ img{
   }
 }
 
+
+
+/* =========================================================
+   RESULTS ROW ALIGNMENT
+   チェック丸と1行目テキストの中央を揃える
+   ========================================================= */
+
+.results .result-item{
+  --result-font-size:15px;
+  --result-line-height:1.65;
+  --result-check-size:24px;
+
+  padding-top:9px !important;
+  padding-bottom:9px !important;
+}
+
+.results .result-item::before{
+  width:var(--result-check-size) !important;
+  height:var(--result-check-size) !important;
+
+  top:calc(
+    9px +
+    (
+      (var(--result-font-size) * var(--result-line-height))
+      - var(--result-check-size)
+    ) / 2
+  ) !important;
+}
+
+.results .organization,
+.results .project{
+  font-size:var(--result-font-size) !important;
+  line-height:var(--result-line-height) !important;
+}
+
+@media (max-width:768px){
+
+  .results .result-item{
+    --result-font-size:13px;
+    --result-check-size:21px;
+
+    padding-top:9px !important;
+    padding-bottom:9px !important;
+  }
+
+  .results .result-item::before{
+    top:calc(
+      9px +
+      (
+        (var(--result-font-size) * var(--result-line-height))
+        - var(--result-check-size)
+      ) / 2
+    ) !important;
+  }
+}
+
+@media (max-width:430px){
+
+  .results .result-item{
+    --result-font-size:12px;
+    --result-check-size:20px;
+
+    padding-top:8px !important;
+    padding-bottom:8px !important;
+  }
+
+  .results .result-item::before{
+    top:calc(
+      8px +
+      (
+        (var(--result-font-size) * var(--result-line-height))
+        - var(--result-check-size)
+      ) / 2
+    ) !important;
+  }
+}
+
 </style>
 
 
@@ -1756,6 +1833,8 @@ img{
 <div class="result-item"><div class="organization">JASSO日本学生支援機構</div><div class="project">国費外国人留学生歓迎会2025in東京（11月開催）</div></div>
 </div>
 
+</section>
+
 <div class="results-more">
   <img
     class="results-more-icon"
@@ -1768,8 +1847,6 @@ img{
     <span>（展示会・商業施設販促イベント・屋外フェス）・イベント事務局の実績多数</span>
   </p>
 </div>
-
-</section>
 <section class="contact-area">
 <div class="small">CONTACT</div>
 <h2>イベントのご相談はこちら</h2>

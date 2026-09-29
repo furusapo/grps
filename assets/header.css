@@ -605,3 +605,12 @@
   }
 }
 
+
+/* Desktop brand copy balance */
+@media screen and (min-width:769px){
+  #gp-unified-header .service-copy-brand-text{
+    font-size:14px !important;
+    font-weight:600 !important;
+    letter-spacing:.02em !important;
+  }
+}

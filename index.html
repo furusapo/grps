@@ -1494,13 +1494,11 @@ footer img[src*="glowpas-logo"]{
   font-weight:700!important;
   white-space:nowrap!important;
 }
-#ydc1 .concept-values span{
-  display:block!important;
-  width:1px!important;
-  height:30px!important;
-  flex:0 0 1px!important;
-  background:#35a7c9!important;
-}
+
+  #ydc1 .concept-values strong + strong{
+    border-left:1px solid rgba(8,120,167,.55)!important;
+  }
+
 #ydc1 .concept-bottom{
   max-width:900px!important;
   margin:0 auto!important;
@@ -1669,12 +1667,7 @@ footer img[src*="glowpas-logo"]{
 
   #ydc1 .concept-values{
     display:grid!important;
-    grid-template-columns:
-      minmax(0,1fr)
-      1px
-      minmax(0,1fr)
-      1px
-      minmax(0,1fr)!important;
+    grid-template-columns:repeat(3,minmax(0,1fr))!important;
 
     align-items:center!important;
 
@@ -1683,7 +1676,7 @@ footer img[src*="glowpas-logo"]{
 
     margin:24px auto 26px!important;
     padding:0!important;
-    gap:6px!important;
+    gap:0!important;
   }
 
   #ydc1 .concept-values strong{
@@ -3047,9 +3040,7 @@ button,input,select,textarea{font:inherit;}
 
     <div class="concept-values">
       <strong>人と人をつなぐ</strong>
-      <span></span>
       <strong>企業と社会をつなぐ</strong>
-      <span></span>
       <strong>想いと未来をつなぐ</strong>
     </div>
 

@@ -127,3 +127,19 @@
   }
 }
 
+
+/* Footer typography balance */
+#gp-unified-footer .gp-footer-tagline,
+#gp-unified-footer .gp-footer-copyright{
+  font-size:11px !important;
+  line-height:1.5 !important;
+  font-weight:500 !important;
+}
+
+@media screen and (max-width:768px){
+  #gp-unified-footer .gp-footer-tagline,
+  #gp-unified-footer .gp-footer-copyright{
+    font-size:10px !important;
+  }
+}
+

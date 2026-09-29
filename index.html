@@ -1423,10 +1423,6 @@ footer img[src*="glowpas-logo"]{
 </style>
 
 
-
-
-
-
 <style id="concept-clean-20260920">
 /* =========================================================
    GROWPAS CONCEPT — CLEAN FINAL
@@ -2564,6 +2560,562 @@ footer img[src*="glowpas-logo"]{
 }
 </style>
 
+
+
+<style id="globus-contact-mobile-2col-20260926">
+@media screen and (max-width:560px){
+
+  /* CONTACT：スマホでも2列 */
+  #globus-contact .gc-contact-grid{
+    display:grid !important;
+    grid-template-columns:minmax(0,1fr) minmax(0,1fr) !important;
+    gap:10px !important;
+    width:100% !important;
+    max-width:none !important;
+    margin:0 auto !important;
+  }
+
+  #globus-contact .gc-card{
+    min-width:0 !important;
+    min-height:0 !important;
+    padding:16px 10px 14px !important;
+    border-radius:16px !important;
+    box-sizing:border-box !important;
+  }
+
+  /* アイコン＋タイトル */
+  #globus-contact .gc-card-top{
+    display:block !important;
+    text-align:center !important;
+  }
+
+  #globus-contact .gc-card-icon{
+    width:54px !important;
+    height:54px !important;
+    margin:0 auto 10px !important;
+  }
+
+  #globus-contact .gc-card-icon img{
+    width:100% !important;
+    height:100% !important;
+    object-fit:contain !important;
+  }
+
+  #globus-contact .gc-card-heading{
+    margin:0 0 8px !important;
+    font-size:13px !important;
+    line-height:1.35 !important;
+    text-align:center !important;
+  }
+
+  #globus-contact .gc-card-copy{
+    margin:0 !important;
+    font-size:8.5px !important;
+    line-height:1.65 !important;
+    text-align:center !important;
+  }
+
+  /* ボタン */
+  #globus-contact .gc-card-btn{
+    width:100% !important;
+    min-height:42px !important;
+    margin-top:14px !important;
+    padding:8px 7px !important;
+    gap:5px !important;
+    box-sizing:border-box !important;
+
+    font-size:9px !important;
+    line-height:1.3 !important;
+    white-space:normal !important;
+    text-align:center !important;
+  }
+
+  #globus-contact .gc-line-mini{
+    width:25px !important;
+    height:25px !important;
+    flex:0 0 25px !important;
+    font-size:6.5px !important;
+  }
+}
+</style>
+
+<style id="mobile-support-contact-gap-fix-20260926">
+@media screen and (max-width:560px){
+
+  /* SUPPORT直後〜CONTACTまでの不要な空白を消す */
+  #globus-support{
+    margin-bottom:0 !important;
+  }
+
+  #globus-support + .container{
+    display:none !important;
+    height:0 !important;
+    min-height:0 !important;
+    margin:0 !important;
+    padding:0 !important;
+  }
+
+  #globus-contact{
+    margin-top:0 !important;
+  }
+
+  /* CONTACT直前の空asideを含むcontainerも高さを持たせない */
+  main + .container{
+    height:0 !important;
+    min-height:0 !important;
+    margin:0 !important;
+    padding:0 !important;
+  }
+
+  main + .container #blog:empty{
+    display:none !important;
+  }
+}
+</style>
+
+<style id="globus-contact-mobile-button-align-20260926">
+@media screen and (max-width:560px){
+
+  /* 左右カードを同じ高さにする */
+  #globus-contact .gc-contact-grid{
+    align-items:stretch !important;
+  }
+
+  #globus-contact .gc-card{
+    display:flex !important;
+    flex-direction:column !important;
+    height:100% !important;
+  }
+
+  /* 上部コンテンツは通常配置 */
+  #globus-contact .gc-card-top{
+    flex:0 0 auto !important;
+  }
+
+  /* ボタンを両カードとも下端に揃える */
+  #globus-contact .gc-card-btn{
+    margin-top:auto !important;
+    position:relative !important;
+    top:auto !important;
+    bottom:auto !important;
+  }
+
+  /* 本文とボタンの最低限の間隔 */
+  #globus-contact .gc-card-top + .gc-card-btn{
+    margin-top:auto !important;
+  }
+}
+</style>
+
+<style id="home-mobile-footer-compact-20260926">
+@media screen and (max-width:768px){
+
+  /* ロゴエリア全体 */
+  .freeTxtWrapper{
+    margin:0 !important;
+    padding:0 !important;
+  }
+
+  #freeTxt{
+    margin:0 !important;
+    padding:0 !important;
+  }
+
+  .foot-area{
+    margin:0 !important;
+    padding:24px 16px 20px !important;
+    text-align:center !important;
+  }
+
+  /* キャッチコピー */
+  .foot-area p{
+    margin:0 !important;
+    padding:0 !important;
+    line-height:1.4 !important;
+  }
+
+  .foot-area p span{
+    font-size:10px !important;
+    line-height:1.4 !important;
+  }
+
+  /* ロゴを小さく */
+  .foot-area .foot-growpas-logo{
+    display:block !important;
+    width:105px !important;
+    max-width:105px !important;
+    height:auto !important;
+    margin:12px auto 0 !important;
+  }
+
+  /* copyrightエリア */
+  footer{
+    margin:0 !important;
+    padding:16px 18px 18px !important;
+    min-height:0 !important;
+    height:auto !important;
+  }
+
+  #copylight{
+    margin:0 auto !important;
+    padding:0 !important;
+    font-size:9px !important;
+    line-height:1.65 !important;
+  }
+}
+</style>
+
+<style id="concept-mobile-768-real-fix-20260928">
+@media screen and (max-width:768px){
+
+  /* 768pxで残っているタブレット固定高を完全解除 */
+  #ydc1.articleBox{
+    position:relative !important;
+    width:100% !important;
+    max-width:100% !important;
+    aspect-ratio:auto !important;
+    height:auto !important;
+    min-height:0 !important;
+    margin:0 !important;
+    padding:0 !important;
+    overflow:hidden !important;
+
+    background-size:cover !important;
+    background-position:center center !important;
+  }
+
+  #ydc1 .concept-main{
+    position:relative !important;
+    top:auto !important;
+    left:auto !important;
+    width:100% !important;
+    height:auto !important;
+    min-height:0 !important;
+    transform:none !important;
+  }
+
+  /* OUR APPROACHを文章量に合わせた高さにする */
+  #ydc1 .concept-approach{
+    position:relative !important;
+    top:auto !important;
+    left:auto !important;
+    right:auto !important;
+    bottom:auto !important;
+
+    width:100% !important;
+    height:auto !important;
+    min-height:0 !important;
+
+    margin:0 !important;
+    padding:42px 24px 38px !important;
+
+    display:block !important;
+    overflow:hidden !important;
+  }
+
+  #ydc1 .concept-approach-copy{
+    position:relative !important;
+    top:auto !important;
+    left:auto !important;
+    right:auto !important;
+    bottom:auto !important;
+
+    width:100% !important;
+    max-width:620px !important;
+
+    margin:0 auto !important;
+    padding:0 !important;
+  }
+
+  /* PC用の右側メッセージ位置指定を解除 */
+  #ydc1 .concept-approach-message{
+    position:relative !important;
+
+    top:auto !important;
+    left:auto !important;
+    right:auto !important;
+    bottom:auto !important;
+
+    width:100% !important;
+    max-width:620px !important;
+
+    margin:28px auto 0 !important;
+    padding:0 !important;
+  }
+
+  #ydc1 .approach-text:last-child{
+    margin-bottom:0 !important;
+  }
+
+}
+</style>
+
+<style id="concept-mobile-full-bleed-20260928">
+@media screen and (max-width:768px){
+
+  /* CONCEPT全体を画面左右いっぱいにする */
+  #ydc1.articleBox{
+    width:100vw !important;
+    max-width:none !important;
+
+    margin-left:calc(50% - 50vw) !important;
+    margin-right:calc(50% - 50vw) !important;
+
+    border-left:0 !important;
+    border-right:0 !important;
+  }
+
+  /* 背景も端まで表示 */
+  #ydc1{
+    background-size:cover !important;
+    background-position:center top !important;
+  }
+
+  /* セクション自体の外側余白を消す */
+  #ydc1 .concept-main,
+  #ydc1 .concept-approach{
+    width:100% !important;
+    max-width:none !important;
+    margin-left:0 !important;
+    margin-right:0 !important;
+  }
+
+}
+</style>
+
+<style id="approach-mobile-pc-layout-20260928">
+@media screen and (max-width:768px){
+
+  /* OUR APPROACH全体 */
+  #ydc1 .concept-approach{
+    position:relative !important;
+    width:100% !important;
+    height:auto !important;
+    min-height:0 !important;
+    padding:42px 24px 0 !important;
+    overflow:hidden !important;
+
+    /* PC版と同じ背景画像を活かす */
+    background:
+      linear-gradient(
+        rgba(240,249,255,.68),
+        rgba(240,249,255,.68)
+      ),
+      url("assets/(0922)concept.png?v=20260922-1601") !important;
+
+    background-size:auto 100% !important;
+    background-position:center center !important;
+    background-repeat:no-repeat !important;
+  }
+
+  /* 上の本文 */
+  #ydc1 .concept-approach-copy{
+    position:relative !important;
+    z-index:2 !important;
+    width:100% !important;
+    max-width:none !important;
+    margin:0 auto !important;
+    padding:0 0 32px !important;
+  }
+
+
+  /* ==========================
+     下段：PC版の右側構図を再現
+     ========================== */
+
+  #ydc1 .concept-approach-message{
+    position:relative !important;
+    z-index:3 !important;
+
+    /* 右半分へ */
+    width:50% !important;
+    max-width:none !important;
+
+    margin:0 0 0 auto !important;
+    padding:24px 18px 30px !important;
+
+    min-height:190px !important;
+
+    top:auto !important;
+    left:auto !important;
+    right:auto !important;
+    bottom:auto !important;
+
+    display:flex !important;
+    flex-direction:column !important;
+    justify-content:center !important;
+
+    /* PC版の右側に近い薄いパネル */
+    background:rgba(244,250,253,.82) !important;
+  }
+
+
+  /* TAILORED FOR EACH STORY */
+  #ydc1 .approach-side-label{
+    display:block !important;
+    position:relative !important;
+
+    margin:0 0 20px !important;
+    padding-left:15px !important;
+
+    color:#456c8d !important;
+
+    font-size:9px !important;
+    line-height:1.55 !important;
+    font-weight:700 !important;
+    letter-spacing:.18em !important;
+
+    text-align:left !important;
+  }
+
+  /* PC版にある細い縦線 */
+  #ydc1 .approach-side-label::before{
+    content:"" !important;
+    position:absolute !important;
+    left:0 !important;
+    top:-5px !important;
+
+    width:1px !important;
+    height:45px !important;
+
+    background:#0096c8 !important;
+  }
+
+
+  /* 赤丸だった大きな文章を小型化 */
+  #ydc1 .concept-approach-message p{
+    margin:0 !important;
+    padding:0 !important;
+
+    color:#073f7d !important;
+
+    font-size:15px !important;
+    line-height:1.65 !important;
+    font-weight:700 !important;
+    letter-spacing:.01em !important;
+
+    white-space:nowrap !important;
+    word-break:keep-all !important;
+    overflow-wrap:normal !important;
+
+    text-align:left !important;
+  }
+
+}
+</style>
+
+
+<style id="cross-browser-responsive-final-20260929">
+/* Cross-browser/mobile stabilization: Chrome/Android, Safari/iOS, Firefox, Edge */
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%;}
+body{min-width:0;}
+img,picture,video,iframe,svg{max-width:100%;}
+img{height:auto;}
+button,input,select,textarea{font:inherit;}
+
+@media screen and (max-width:768px){
+  html,body{width:100%;max-width:100%;overflow-x:hidden;}
+  main,.container,section,article{min-width:0;max-width:100%;}
+
+  /* Mobile typography must wrap by the actual viewport, not desktop <br> positions. */
+  #ydc1 .concept-lead br,
+  #ydc1 .concept-bottom br,
+  #ydc1 .approach-text br{display:none!important;}
+
+  #ydc1 .concept-main,
+  #ydc1 .concept-approach,
+  #ydc1 .concept-approach-copy,
+  #ydc1 .concept-approach-message{min-width:0!important;}
+
+  #ydc1 .concept-lead,
+  #ydc1 .concept-bottom,
+  #ydc1 .approach-text,
+  #ydc1 .concept-approach-message p{
+    max-width:100%!important;
+    white-space:normal!important;
+    word-break:normal!important;
+    overflow-wrap:break-word!important;
+  }
+
+  /* Three values remain horizontal, but can never push outside Android viewports. */
+  #ydc1 .concept-values{
+    display:grid!important;
+    grid-template-columns:minmax(0,1fr) 1px minmax(0,1fr) 1px minmax(0,1fr)!important;
+    align-items:center!important;
+    gap:8px!important;
+    width:100%!important;
+    max-width:100%!important;
+  }
+  #ydc1 .concept-values strong{
+    min-width:0!important;
+    white-space:normal!important;
+    word-break:keep-all!important;
+    overflow-wrap:break-word!important;
+    text-align:center!important;
+  }
+
+  /* OUR APPROACH message: avoid fixed 50% width + nowrap overflow on Android. */
+  #ydc1 .concept-approach-message{
+    width:min(52%,320px)!important;
+    max-width:52%!important;
+    margin-left:auto!important;
+    padding-left:14px!important;
+    padding-right:14px!important;
+  }
+  #ydc1 .concept-approach-message p{
+    font-size:clamp(13px,3.7vw,16px)!important;
+    line-height:1.65!important;
+  }
+
+  /* Support cards: protect text from Android font-metric differences. */
+  #globus-support .gs-grid{min-width:0!important;}
+  #globus-support .gs-card{min-width:0!important;overflow:hidden!important;}
+  #globus-support .gs-content{min-width:0!important;}
+  #globus-support .gs-card-title,
+  #globus-support .gs-card-copy{
+    max-width:100%!important;
+    white-space:normal!important;
+    word-break:normal!important;
+    overflow-wrap:break-word!important;
+  }
+
+  /* Header/navigation: keep the page width fixed and make nav intentionally scrollable. */
+  .service-copy-header,.service-copy-header-main,.service-copy-nav{max-width:100%!important;}
+  .service-copy-nav{overflow:hidden!important;}
+  .service-copy-nav-inner{
+    max-width:100%!important;
+    overflow-x:auto!important;
+    overflow-y:hidden!important;
+    -webkit-overflow-scrolling:touch;
+    scrollbar-width:none;
+  }
+  .service-copy-nav-inner::-webkit-scrollbar{display:none;}
+}
+
+@media screen and (max-width:480px){
+  #ydc1 .concept-main{padding-left:20px!important;padding-right:20px!important;}
+  #ydc1 .concept-values{gap:5px!important;}
+  #ydc1 .concept-values strong{font-size:clamp(10px,2.8vw,13px)!important;line-height:1.45!important;}
+
+  #globus-support .gs-card{min-height:270px!important;}
+  #globus-support .gs-content{
+    width:66%!important;
+    min-height:270px!important;
+    padding:26px 42px 22px 16px!important;
+  }
+  #globus-support .gs-no{font-size:28px!important;margin-bottom:12px!important;}
+  #globus-support .gs-card-title{font-size:18px!important;margin-bottom:10px!important;}
+  #globus-support .gs-card-copy{font-size:10.5px!important;line-height:1.7!important;}
+  #globus-support .gs-arrow{left:16px!important;bottom:16px!important;}
+}
+
+@media screen and (max-width:360px){
+  #ydc1 .concept-values strong{font-size:9.5px!important;}
+  #ydc1 .concept-approach{padding-left:18px!important;padding-right:18px!important;}
+  #ydc1 .concept-approach-message{width:56%!important;max-width:56%!important;}
+}
+</style>
+
 </head>
 <body id="top" style="">
 <!-- === header === -->
@@ -2816,453 +3368,6 @@ footer img[src*="glowpas-logo"]{
 </footer>
 <!-- === /footer === -->
 
-<style id="globus-contact-mobile-2col-20260926">
-@media screen and (max-width:560px){
-
-  /* CONTACT：スマホでも2列 */
-  #globus-contact .gc-contact-grid{
-    display:grid !important;
-    grid-template-columns:minmax(0,1fr) minmax(0,1fr) !important;
-    gap:10px !important;
-    width:100% !important;
-    max-width:none !important;
-    margin:0 auto !important;
-  }
-
-  #globus-contact .gc-card{
-    min-width:0 !important;
-    min-height:0 !important;
-    padding:16px 10px 14px !important;
-    border-radius:16px !important;
-    box-sizing:border-box !important;
-  }
-
-  /* アイコン＋タイトル */
-  #globus-contact .gc-card-top{
-    display:block !important;
-    text-align:center !important;
-  }
-
-  #globus-contact .gc-card-icon{
-    width:54px !important;
-    height:54px !important;
-    margin:0 auto 10px !important;
-  }
-
-  #globus-contact .gc-card-icon img{
-    width:100% !important;
-    height:100% !important;
-    object-fit:contain !important;
-  }
-
-  #globus-contact .gc-card-heading{
-    margin:0 0 8px !important;
-    font-size:13px !important;
-    line-height:1.35 !important;
-    text-align:center !important;
-  }
-
-  #globus-contact .gc-card-copy{
-    margin:0 !important;
-    font-size:8.5px !important;
-    line-height:1.65 !important;
-    text-align:center !important;
-  }
-
-  /* ボタン */
-  #globus-contact .gc-card-btn{
-    width:100% !important;
-    min-height:42px !important;
-    margin-top:14px !important;
-    padding:8px 7px !important;
-    gap:5px !important;
-    box-sizing:border-box !important;
-
-    font-size:9px !important;
-    line-height:1.3 !important;
-    white-space:normal !important;
-    text-align:center !important;
-  }
-
-  #globus-contact .gc-line-mini{
-    width:25px !important;
-    height:25px !important;
-    flex:0 0 25px !important;
-    font-size:6.5px !important;
-  }
-}
-</style>
-
-
-<style id="mobile-support-contact-gap-fix-20260926">
-@media screen and (max-width:560px){
-
-  /* SUPPORT直後〜CONTACTまでの不要な空白を消す */
-  #globus-support{
-    margin-bottom:0 !important;
-  }
-
-  #globus-support + .container{
-    display:none !important;
-    height:0 !important;
-    min-height:0 !important;
-    margin:0 !important;
-    padding:0 !important;
-  }
-
-  #globus-contact{
-    margin-top:0 !important;
-  }
-
-  /* CONTACT直前の空asideを含むcontainerも高さを持たせない */
-  main + .container{
-    height:0 !important;
-    min-height:0 !important;
-    margin:0 !important;
-    padding:0 !important;
-  }
-
-  main + .container #blog:empty{
-    display:none !important;
-  }
-}
-</style>
-
-
-<style id="globus-contact-mobile-button-align-20260926">
-@media screen and (max-width:560px){
-
-  /* 左右カードを同じ高さにする */
-  #globus-contact .gc-contact-grid{
-    align-items:stretch !important;
-  }
-
-  #globus-contact .gc-card{
-    display:flex !important;
-    flex-direction:column !important;
-    height:100% !important;
-  }
-
-  /* 上部コンテンツは通常配置 */
-  #globus-contact .gc-card-top{
-    flex:0 0 auto !important;
-  }
-
-  /* ボタンを両カードとも下端に揃える */
-  #globus-contact .gc-card-btn{
-    margin-top:auto !important;
-    position:relative !important;
-    top:auto !important;
-    bottom:auto !important;
-  }
-
-  /* 本文とボタンの最低限の間隔 */
-  #globus-contact .gc-card-top + .gc-card-btn{
-    margin-top:auto !important;
-  }
-}
-</style>
-
-
-<style id="home-mobile-footer-compact-20260926">
-@media screen and (max-width:768px){
-
-  /* ロゴエリア全体 */
-  .freeTxtWrapper{
-    margin:0 !important;
-    padding:0 !important;
-  }
-
-  #freeTxt{
-    margin:0 !important;
-    padding:0 !important;
-  }
-
-  .foot-area{
-    margin:0 !important;
-    padding:24px 16px 20px !important;
-    text-align:center !important;
-  }
-
-  /* キャッチコピー */
-  .foot-area p{
-    margin:0 !important;
-    padding:0 !important;
-    line-height:1.4 !important;
-  }
-
-  .foot-area p span{
-    font-size:10px !important;
-    line-height:1.4 !important;
-  }
-
-  /* ロゴを小さく */
-  .foot-area .foot-growpas-logo{
-    display:block !important;
-    width:105px !important;
-    max-width:105px !important;
-    height:auto !important;
-    margin:12px auto 0 !important;
-  }
-
-  /* copyrightエリア */
-  footer{
-    margin:0 !important;
-    padding:16px 18px 18px !important;
-    min-height:0 !important;
-    height:auto !important;
-  }
-
-  #copylight{
-    margin:0 auto !important;
-    padding:0 !important;
-    font-size:9px !important;
-    line-height:1.65 !important;
-  }
-}
-</style>
-
-
-<style id="concept-mobile-768-real-fix-20260928">
-@media screen and (max-width:768px){
-
-  /* 768pxで残っているタブレット固定高を完全解除 */
-  #ydc1.articleBox{
-    position:relative !important;
-    width:100% !important;
-    max-width:100% !important;
-    aspect-ratio:auto !important;
-    height:auto !important;
-    min-height:0 !important;
-    margin:0 !important;
-    padding:0 !important;
-    overflow:hidden !important;
-
-    background-size:cover !important;
-    background-position:center center !important;
-  }
-
-  #ydc1 .concept-main{
-    position:relative !important;
-    top:auto !important;
-    left:auto !important;
-    width:100% !important;
-    height:auto !important;
-    min-height:0 !important;
-    transform:none !important;
-  }
-
-  /* OUR APPROACHを文章量に合わせた高さにする */
-  #ydc1 .concept-approach{
-    position:relative !important;
-    top:auto !important;
-    left:auto !important;
-    right:auto !important;
-    bottom:auto !important;
-
-    width:100% !important;
-    height:auto !important;
-    min-height:0 !important;
-
-    margin:0 !important;
-    padding:42px 24px 38px !important;
-
-    display:block !important;
-    overflow:hidden !important;
-  }
-
-  #ydc1 .concept-approach-copy{
-    position:relative !important;
-    top:auto !important;
-    left:auto !important;
-    right:auto !important;
-    bottom:auto !important;
-
-    width:100% !important;
-    max-width:620px !important;
-
-    margin:0 auto !important;
-    padding:0 !important;
-  }
-
-  /* PC用の右側メッセージ位置指定を解除 */
-  #ydc1 .concept-approach-message{
-    position:relative !important;
-
-    top:auto !important;
-    left:auto !important;
-    right:auto !important;
-    bottom:auto !important;
-
-    width:100% !important;
-    max-width:620px !important;
-
-    margin:28px auto 0 !important;
-    padding:0 !important;
-  }
-
-  #ydc1 .approach-text:last-child{
-    margin-bottom:0 !important;
-  }
-
-}
-</style>
-
-
-<style id="concept-mobile-full-bleed-20260928">
-@media screen and (max-width:768px){
-
-  /* CONCEPT全体を画面左右いっぱいにする */
-  #ydc1.articleBox{
-    width:100vw !important;
-    max-width:none !important;
-
-    margin-left:calc(50% - 50vw) !important;
-    margin-right:calc(50% - 50vw) !important;
-
-    border-left:0 !important;
-    border-right:0 !important;
-  }
-
-  /* 背景も端まで表示 */
-  #ydc1{
-    background-size:cover !important;
-    background-position:center top !important;
-  }
-
-  /* セクション自体の外側余白を消す */
-  #ydc1 .concept-main,
-  #ydc1 .concept-approach{
-    width:100% !important;
-    max-width:none !important;
-    margin-left:0 !important;
-    margin-right:0 !important;
-  }
-
-}
-</style>
-
-
-<style id="approach-mobile-pc-layout-20260928">
-@media screen and (max-width:768px){
-
-  /* OUR APPROACH全体 */
-  #ydc1 .concept-approach{
-    position:relative !important;
-    width:100% !important;
-    height:auto !important;
-    min-height:0 !important;
-    padding:42px 24px 0 !important;
-    overflow:hidden !important;
-
-    /* PC版と同じ背景画像を活かす */
-    background:
-      linear-gradient(
-        rgba(240,249,255,.68),
-        rgba(240,249,255,.68)
-      ),
-      url("assets/(0922)concept.png?v=20260922-1601") !important;
-
-    background-size:auto 100% !important;
-    background-position:center center !important;
-    background-repeat:no-repeat !important;
-  }
-
-  /* 上の本文 */
-  #ydc1 .concept-approach-copy{
-    position:relative !important;
-    z-index:2 !important;
-    width:100% !important;
-    max-width:none !important;
-    margin:0 auto !important;
-    padding:0 0 32px !important;
-  }
-
-
-  /* ==========================
-     下段：PC版の右側構図を再現
-     ========================== */
-
-  #ydc1 .concept-approach-message{
-    position:relative !important;
-    z-index:3 !important;
-
-    /* 右半分へ */
-    width:50% !important;
-    max-width:none !important;
-
-    margin:0 0 0 auto !important;
-    padding:24px 18px 30px !important;
-
-    min-height:190px !important;
-
-    top:auto !important;
-    left:auto !important;
-    right:auto !important;
-    bottom:auto !important;
-
-    display:flex !important;
-    flex-direction:column !important;
-    justify-content:center !important;
-
-    /* PC版の右側に近い薄いパネル */
-    background:rgba(244,250,253,.82) !important;
-  }
-
-
-  /* TAILORED FOR EACH STORY */
-  #ydc1 .approach-side-label{
-    display:block !important;
-    position:relative !important;
-
-    margin:0 0 20px !important;
-    padding-left:15px !important;
-
-    color:#456c8d !important;
-
-    font-size:9px !important;
-    line-height:1.55 !important;
-    font-weight:700 !important;
-    letter-spacing:.18em !important;
-
-    text-align:left !important;
-  }
-
-  /* PC版にある細い縦線 */
-  #ydc1 .approach-side-label::before{
-    content:"" !important;
-    position:absolute !important;
-    left:0 !important;
-    top:-5px !important;
-
-    width:1px !important;
-    height:45px !important;
-
-    background:#0096c8 !important;
-  }
-
-
-  /* 赤丸だった大きな文章を小型化 */
-  #ydc1 .concept-approach-message p{
-    margin:0 !important;
-    padding:0 !important;
-
-    color:#073f7d !important;
-
-    font-size:15px !important;
-    line-height:1.65 !important;
-    font-weight:700 !important;
-    letter-spacing:.01em !important;
-
-    white-space:nowrap !important;
-    word-break:keep-all !important;
-    overflow-wrap:normal !important;
-
-    text-align:left !important;
-  }
-
-}
-</style>
 
 </body></html>
 

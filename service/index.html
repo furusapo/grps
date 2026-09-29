@@ -2129,6 +2129,27 @@ main{
     border-radius:95px 0 0 95px !important;
   }
 }
+
+
+/* MOBILE LEAD BREAKS */
+@media (max-width:768px){
+  .service-page-lead .lead-line{
+    display:block !important;
+    white-space:nowrap !important;
+  }
+}
+
+/* PCではspanを通常の文章として扱う */
+@media (min-width:769px){
+  .service-page-lead .lead-line{
+    display:inline !important;
+    white-space:normal !important;
+  }
+
+  .service-page-lead .lead-line:not(:last-child)::after{
+    content:" " !important;
+  }
+}
 </style>
 
 </head>
@@ -2163,11 +2184,10 @@ main{
 <div class="service-page-hero-inner">
 <div class="service-page-heading">
 <h1>サービス内容</h1>
-<p class="service-page-lead">
-        企画・準備から、イベント当日の運営、<br/>
-        そして終了後のフォローまで。<br/>
-        グローパスがイベントの全工程をサポートします。
-      </p>
+<p class="service-page-lead"><span class="lead-line">企画・準備から、イベント当日の運営、</span>
+<span class="lead-line">そして終了後のフォローまで。</span>
+<span class="lead-line">グローパスがイベントの全工程を</span>
+<span class="lead-line">サポートします。</span></p>
 </div>
 </div>
 </section>

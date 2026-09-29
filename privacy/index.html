@@ -700,6 +700,128 @@ body{color:#34495e;background:#fff;line-height:1.8}
 }
 </style>
 
+
+<style id="privacy-hero-title-unified-final">
+
+/* ===== PRIVACY HERO：タイトル書体を他ページと統一 ===== */
+
+.hero-title{
+  font-family:
+    "Hiragino Kaku Gothic ProN",
+    "Yu Gothic",
+    "YuGothic",
+    "Meiryo",
+    sans-serif !important;
+  font-weight:700 !important;
+  letter-spacing:.02em !important;
+}
+
+/* ===== SMARTPHONE ===== */
+
+@media (max-width:680px){
+
+  .hero-label{
+    position:relative !important;
+    margin-bottom:38px !important;
+  }
+
+  /* PRIVACY POLICY の直下に水色ライン */
+  .hero-label::after{
+    content:"";
+    position:absolute;
+    left:50%;
+    top:calc(100% + 12px);
+    width:34px;
+    height:2px;
+    background:#29b7c8;
+    transform:translateX(-50%);
+  }
+
+  /* HERO最下部にあった元のラインはスマホだけ消す */
+  .hero::after{
+    display:none !important;
+  }
+
+  .hero-title{
+    font-size:28px !important;
+    line-height:1.35 !important;
+    font-weight:700 !important;
+  }
+
+}
+
+</style>
+
+
+<style id="privacy-mobile-content-compact-final">
+@media (max-width:680px){
+
+  /* 本文エリア */
+  .policy{
+    padding-left:28px !important;
+    padding-right:28px !important;
+    padding-bottom:35px !important;
+  }
+
+  /* 各章をかなりコンパクトに */
+  .policy-section{
+    margin:0 !important;
+    padding:12px 0 13px !important;
+  }
+
+  /* 章タイトル */
+  .policy-section h2{
+    margin:0 0 7px !important;
+    padding:0 !important;
+    font-size:16px !important;
+    line-height:1.35 !important;
+  }
+
+  /* 本文 */
+  .policy-section p{
+    margin:0 0 5px !important;
+    padding:0 !important;
+    font-size:12.5px !important;
+    line-height:1.48 !important;
+    letter-spacing:0 !important;
+  }
+
+  /* 同じ章の2段落目以降 */
+  .policy-section p + p{
+    margin-top:6px !important;
+  }
+
+  /* 小見出し */
+  .policy-section h3{
+    margin:8px 0 4px !important;
+    padding:0 !important;
+    font-size:13px !important;
+    line-height:1.4 !important;
+  }
+
+  /* 箇条書き */
+  .policy-section ul{
+    margin:4px 0 6px !important;
+  }
+
+  .policy-section li{
+    padding-top:1px !important;
+    padding-bottom:1px !important;
+    font-size:12px !important;
+    line-height:1.45 !important;
+  }
+
+  /* 問い合わせBOX */
+  .contact-box{
+    margin:6px 0 0 !important;
+    padding:12px 14px !important;
+    font-size:12.5px !important;
+    line-height:1.5 !important;
+  }
+
+}
+</style>
+
 <script src="../assets/header.js?v=20260929" defer></script>
 <link rel="stylesheet" href="../assets/footer.css?v=20260929">
 </head>
@@ -894,10 +1016,7 @@ body{color:#34495e;background:#fff;line-height:1.8}
       </p>
 </section>
 <div class="signature">
-<p>
-        制定日：［制定日を記載］<br/>
-        最終改定日：［改定日を記載］
-      </p>
+
 <p>
         株式会社グローパス<br/>
         代表取締役　石坂絹果

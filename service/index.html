@@ -2079,14 +2079,22 @@ main{
   viewport.addEventListener("pointermove", moveDrag);
   viewport.addEventListener("pointerup", endDrag);
   viewport.addEventListener("pointercancel", endDrag);
+  viewport.addEventListener("pointerleave", endDrag);
 
-  /* 自動スクロール */
+  /*
+    自動スクロール
+    PC：従来に近い速度
+    スマホ：止まって見えないよう少し速くする
+  */
+  const isMobile = window.matchMedia("(max-width: 560px)").matches;
+  const speed = isMobile ? 0.065 : 0.035;
+
   function animate(now) {
     const delta = Math.min(now - lastTime, 40);
     lastTime = now;
 
-    if (!dragging) {
-      viewport.scrollLeft += delta * 0.035;
+    if (!dragging && !document.hidden) {
+      viewport.scrollLeft += delta * speed;
     }
 
     const half = track.scrollWidth / 2;
@@ -3030,6 +3038,11 @@ main{
 
 <style id="service-mobile-gallery-smaller-final">
 @media (max-width:560px){
+
+  .service-photo-flow{
+    touch-action:pan-y pan-x !important;
+    -webkit-overflow-scrolling:touch !important;
+  }
 
   .service-photo-flow{
     padding-top:10px !important;

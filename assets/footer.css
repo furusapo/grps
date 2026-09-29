@@ -74,3 +74,56 @@
     font-size:13px;
   }
 }
+
+/* =========================================================
+   COMPACT FOOTER FINAL
+   ========================================================= */
+
+#gp-unified-footer{
+  padding:34px 20px 24px !important;
+}
+
+#gp-unified-footer .gp-footer-tagline{
+  margin:0 0 20px !important;
+  font-size:13px !important;
+  line-height:1.5 !important;
+  font-weight:500 !important;
+}
+
+#gp-unified-footer .gp-footer-logo{
+  width:105px !important;
+  max-width:none !important;
+  height:auto !important;
+  margin:0 auto 20px !important;
+}
+
+#gp-unified-footer .gp-footer-copyright{
+  margin:0 !important;
+  font-size:13px !important;
+  line-height:1.5 !important;
+  font-weight:500 !important;
+}
+
+/* スマホも巨大化させない */
+@media screen and (max-width:768px){
+
+  #gp-unified-footer{
+    padding:30px 16px 22px !important;
+  }
+
+  #gp-unified-footer .gp-footer-tagline{
+    margin-bottom:18px !important;
+    font-size:13px !important;
+  }
+
+  #gp-unified-footer .gp-footer-logo{
+    width:100px !important;
+    margin-bottom:18px !important;
+  }
+
+  #gp-unified-footer .gp-footer-copyright{
+    font-size:13px !important;
+    font-weight:500 !important;
+  }
+}
+

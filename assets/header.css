@@ -268,3 +268,38 @@
   }
 }
 
+
+/* =========================================================
+   DESKTOP HEADER — BRAND COPY ONE LINE 20260929
+   ========================================================= */
+@media screen and (min-width:1025px){
+
+  #gp-unified-header .service-copy-header-main{
+    width:calc(100% - 48px) !important;
+    max-width:1440px !important;
+    gap:24px !important;
+  }
+
+  #gp-unified-header .service-copy-brand{
+    flex:1 1 auto !important;
+    min-width:0 !important;
+    gap:20px !important;
+  }
+
+  #gp-unified-header .service-copy-brand-text{
+    flex:0 0 auto !important;
+    max-width:none !important;
+    padding-left:20px !important;
+    font-size:16px !important;
+    line-height:1.5 !important;
+    white-space:nowrap !important;
+    word-break:keep-all !important;
+    overflow-wrap:normal !important;
+  }
+
+  #gp-unified-header .service-copy-links{
+    flex:0 0 auto !important;
+    gap:22px !important;
+  }
+}
+

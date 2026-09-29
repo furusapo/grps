@@ -1165,7 +1165,6 @@ img{
 
 .results .organization,
 .results .project{
-  grid-column:2;
 
   margin:0;
   padding:0;
@@ -1180,7 +1179,6 @@ img{
 }
 
 .results .organization{
-  grid-row:1;
   display:inline;
 
   width:max-content;
@@ -1191,10 +1189,8 @@ img{
 }
 
 .results .project{
-  grid-row:1;
 
   display:block;
-  padding-left:max-content;
 
   font-weight:500;
 }
@@ -1213,10 +1209,7 @@ img{
   grid-area:check;
 }
 
-.results .organization,
-.results .project{
-  grid-area:text;
-}
+
 
 
 /*
@@ -1348,6 +1341,94 @@ img{
   }
 }
 
+
+
+/* =========================================================
+   RESULT TEXT
+   check | organization + project
+   ========================================================= */
+
+.results .result-item{
+  grid-template-columns:24px minmax(0,1fr);
+  grid-template-areas:"check text";
+  column-gap:18px;
+  align-items:start;
+}
+
+.results .result-item::before{
+  grid-area:check;
+}
+
+.results .result-text{
+  grid-area:text;
+  min-width:0;
+
+  font-size:15px;
+  line-height:24px;
+  color:#315b72;
+}
+
+.results .result-text .organization,
+.results .result-text .project{
+  display:inline;
+  position:static;
+
+  margin:0;
+  padding:0;
+
+  font-size:inherit;
+  line-height:inherit;
+
+  white-space:normal;
+  word-break:normal;
+  overflow-wrap:break-word;
+}
+
+.results .result-text .organization{
+  margin-right:.45em;
+  font-weight:700;
+}
+
+.results .result-text .organization::after{
+  content:none;
+}
+
+.results .result-text .project{
+  font-weight:500;
+}
+
+
+/* ---------- MOBILE ---------- */
+
+@media (max-width:768px){
+
+  .results .result-item{
+    grid-template-columns:21px minmax(0,1fr);
+    column-gap:13px;
+  }
+
+  .results .result-text{
+    font-size:13px;
+    line-height:21px;
+  }
+}
+
+
+/* ---------- SMALL MOBILE / ANDROID ---------- */
+
+@media (max-width:430px){
+
+  .results .result-item{
+    grid-template-columns:20px minmax(0,1fr);
+    column-gap:11px;
+  }
+
+  .results .result-text{
+    font-size:12px;
+    line-height:20px;
+  }
+}
+
 </style>
 
 
@@ -1420,28 +1501,94 @@ img{
 <div class="year-title">2024年度</div>
 </div>
 <div class="result-list">
-<div class="result-item"><div class="organization">消費者庁</div><div class="project">食品表示制度セミナー</div></div>
-<div class="result-item"><div class="organization">消費者庁</div><div class="project">令和６年改正景品表示法説明会</div></div>
-<div class="result-item"><div class="organization">消費者庁</div><div class="project">令和６年度食品安全分野外国政府職員招へい</div></div>
-<div class="result-item"><div class="organization">国土交通省</div><div class="project">流域治水オフィシャルサポーター交流会</div></div>
-<div class="result-item"><div class="organization">国土交通省</div><div class="project">第15回海外港湾物流プロジェクト協議会</div></div>
-<div class="result-item"><div class="organization">国土交通省</div><div class="project">Ｒ６建設技術フォーラム２０２４</div></div>
-<div class="result-item"><div class="organization">農林水産省</div><div class="project">令和６年度「第２回高校生とつながる！つなげる！ジ-ニアス農業遺産ふ－どコンテスト」</div></div>
-<div class="result-item"><div class="organization">農林水産省</div><div class="project">令和6年度生産資材安全確保対策</div></div>
-<div class="result-item"><div class="organization">JASSO日本学生支援機構</div><div class="project">国費外国人留学生歓迎会2024in東京</div></div>
-<div class="result-item"><div class="organization">JASSO日本学生支援機構</div><div class="project">国費外国人留学生歓迎会2024in東京（11月開催）</div></div>
-<div class="result-item"><div class="organization">JASSO日本学生支援機構</div><div class="project">官民協働海外留学支援制度～トビタテ！留学JAPAN新・日本代表プログラム</div></div>
-<div class="result-item"><div class="organization">文化庁</div><div class="project">令和６年度（第７９回)文化庁芸術祭</div></div>
-<div class="result-item"><div class="organization">国立行政法人　国立高等専門学校機関</div><div class="project">国公私立高専合同説明会(KOSEN FES)2024</div></div>
-<div class="result-item"><div class="organization">国立研究開発法人農業・食品産業技術総合研究機構</div><div class="project">「2050年を語るムーンショット双方向対話」</div></div>
-<div class="result-item"><div class="organization">警察庁</div><div class="project">国際会議</div></div>
-<div class="result-item"><div class="organization">環境省</div><div class="project">令和６年度中部山岳国立公園指定90 周年記念総合式典</div></div>
-<div class="result-item"><div class="organization">防衛装備庁</div><div class="project">オープンイノベーション促進のためのプライズコンペティション公募テーマ発表及びネットワーキングイベント</div></div>
-<div class="result-item"><div class="organization">国土交通省　北陸地方整備局</div><div class="project">ゆきみらい</div></div>
-<div class="result-item"><div class="organization">国土交通省 都市局国際・デジタル政策課</div><div class="project">令和６年度「第３５回日韓都市開発協力会議」</div></div>
-<div class="result-item"><div class="organization">外務省大臣官房　人物交流室</div><div class="project">「第5回帰国留学生総会」</div></div>
-<div class="result-item"><div class="organization">外務省OECD室</div><div class="project">グローバル・ビジネス・セミナー</div></div>
-<div class="result-item"><div class="organization">国立研究開発法人科学技術振興機構</div><div class="project">研究セキュリティシンポジウム</div></div>
+<div class="result-item"><div class="result-text">
+<div class="organization">消費者庁</div>
+<div class="project">食品表示制度セミナー</div>
+</div></div>
+<div class="result-item"><div class="result-text">
+<div class="organization">消費者庁</div>
+<div class="project">令和６年改正景品表示法説明会</div>
+</div></div>
+<div class="result-item"><div class="result-text">
+<div class="organization">消費者庁</div>
+<div class="project">令和６年度食品安全分野外国政府職員招へい</div>
+</div></div>
+<div class="result-item"><div class="result-text">
+<div class="organization">国土交通省</div>
+<div class="project">流域治水オフィシャルサポーター交流会</div>
+</div></div>
+<div class="result-item"><div class="result-text">
+<div class="organization">国土交通省</div>
+<div class="project">第15回海外港湾物流プロジェクト協議会</div>
+</div></div>
+<div class="result-item"><div class="result-text">
+<div class="organization">国土交通省</div>
+<div class="project">Ｒ６建設技術フォーラム２０２４</div>
+</div></div>
+<div class="result-item"><div class="result-text">
+<div class="organization">農林水産省</div>
+<div class="project">令和６年度「第２回高校生とつながる！つなげる！ジ-ニアス農業遺産ふ－どコンテスト」</div>
+</div></div>
+<div class="result-item"><div class="result-text">
+<div class="organization">農林水産省</div>
+<div class="project">令和6年度生産資材安全確保対策</div>
+</div></div>
+<div class="result-item"><div class="result-text">
+<div class="organization">JASSO日本学生支援機構</div>
+<div class="project">国費外国人留学生歓迎会2024in東京</div>
+</div></div>
+<div class="result-item"><div class="result-text">
+<div class="organization">JASSO日本学生支援機構</div>
+<div class="project">国費外国人留学生歓迎会2024in東京（11月開催）</div>
+</div></div>
+<div class="result-item"><div class="result-text">
+<div class="organization">JASSO日本学生支援機構</div>
+<div class="project">官民協働海外留学支援制度～トビタテ！留学JAPAN新・日本代表プログラム</div>
+</div></div>
+<div class="result-item"><div class="result-text">
+<div class="organization">文化庁</div>
+<div class="project">令和６年度（第７９回)文化庁芸術祭</div>
+</div></div>
+<div class="result-item"><div class="result-text">
+<div class="organization">国立行政法人　国立高等専門学校機関</div>
+<div class="project">国公私立高専合同説明会(KOSEN FES)2024</div>
+</div></div>
+<div class="result-item"><div class="result-text">
+<div class="organization">国立研究開発法人農業・食品産業技術総合研究機構</div>
+<div class="project">「2050年を語るムーンショット双方向対話」</div>
+</div></div>
+<div class="result-item"><div class="result-text">
+<div class="organization">警察庁</div>
+<div class="project">国際会議</div>
+</div></div>
+<div class="result-item"><div class="result-text">
+<div class="organization">環境省</div>
+<div class="project">令和６年度中部山岳国立公園指定90 周年記念総合式典</div>
+</div></div>
+<div class="result-item"><div class="result-text">
+<div class="organization">防衛装備庁</div>
+<div class="project">オープンイノベーション促進のためのプライズコンペティション公募テーマ発表及びネットワーキングイベント</div>
+</div></div>
+<div class="result-item"><div class="result-text">
+<div class="organization">国土交通省　北陸地方整備局</div>
+<div class="project">ゆきみらい</div>
+</div></div>
+<div class="result-item"><div class="result-text">
+<div class="organization">国土交通省 都市局国際・デジタル政策課</div>
+<div class="project">令和６年度「第３５回日韓都市開発協力会議」</div>
+</div></div>
+<div class="result-item"><div class="result-text">
+<div class="organization">外務省大臣官房　人物交流室</div>
+<div class="project">「第5回帰国留学生総会」</div>
+</div></div>
+<div class="result-item"><div class="result-text">
+<div class="organization">外務省OECD室</div>
+<div class="project">グローバル・ビジネス・セミナー</div>
+</div></div>
+<div class="result-item"><div class="result-text">
+<div class="organization">国立研究開発法人科学技術振興機構</div>
+<div class="project">研究セキュリティシンポジウム</div>
+</div></div>
 </div>
 </section>
 <section class="year-block">
@@ -1450,25 +1597,82 @@ img{
 <div class="year-title">2025年度</div>
 </div>
 <div class="result-list">
-<div class="result-item"><div class="organization">独立行政法人日本学生支援機構</div><div class="project">JASSO海外留学フェア2025</div></div>
-<div class="result-item"><div class="organization">独立行政法人日本学生支援機構</div><div class="project">令和７年度東京国際交流館交流研究発表会</div></div>
-<div class="result-item"><div class="organization">独立行政法人情報処理推進機構（IPA）</div><div class="project">DX銘柄2025発表会</div></div>
-<div class="result-item"><div class="organization">独立行政法人農業者年金基金</div><div class="project">農業者年金セミナー</div></div>
-<div class="result-item"><div class="organization">財務省財務総合政策研究所</div><div class="project">PRI・IMF（FAD）・ADBI 共同フォーラム「Tokyo Fiscal Forum 2025」</div></div>
-<div class="result-item"><div class="organization">国立高等専門学校機構​</div><div class="project">新任教員研修会運営</div></div>
-<div class="result-item"><div class="organization">国立研究開発法人 農業・食品産業技術総合研究機構</div><div class="project">標準型BRIDGE国際ワークショップ</div></div>
-<div class="result-item"><div class="organization">JASSO日本学生支援機構</div><div class="project">国費外国人留学生歓迎会2025in東京（6月開催）</div></div>
-<div class="result-item"><div class="organization">水産庁</div><div class="project">中西部太平洋まぐろ類委員会（ＷＣＰＦＣ）第21回北小委員会</div></div>
-<div class="result-item"><div class="organization">国土交通省</div><div class="project">都市におけるイノベーション創発のあり方に関する検討会</div></div>
-<div class="result-item"><div class="organization">国立研究開発法人科学技術振興機構</div><div class="project">SIP第3期課題「スマートエネルギーマネジメントシステムの構築」における公開シンポジウム</div></div>
-<div class="result-item"><div class="organization">観光庁国際観光課</div><div class="project">第１０回日越観光協力委員会</div></div>
-<div class="result-item"><div class="organization">生物系特定産業技術研究支援センター</div><div class="project">大阪・関西万博FLE展示</div></div>
-<div class="result-item"><div class="organization">法務省</div><div class="project">「法整備支援連携企画 法整備支援へのいざない」に係る会議運営</div></div>
-<div class="result-item"><div class="organization">総務省</div><div class="project">令和7年度「地域の魅力発信セミナー」</div></div>
-<div class="result-item"><div class="organization">消費者庁</div><div class="project">食品表示制度セミナー</div></div>
-<div class="result-item"><div class="organization">防衛研究所</div><div class="project">令和７年度ASEANワークショップ</div></div>
-<div class="result-item"><div class="organization">防衛省　統合幕僚監部</div><div class="project">国際平和と安全シンポジウム（ハ イブリッド形式）の会議運営</div></div>
-<div class="result-item"><div class="organization">JASSO日本学生支援機構</div><div class="project">国費外国人留学生歓迎会2025in東京（11月開催）</div></div>
+<div class="result-item"><div class="result-text">
+<div class="organization">独立行政法人日本学生支援機構</div>
+<div class="project">JASSO海外留学フェア2025</div>
+</div></div>
+<div class="result-item"><div class="result-text">
+<div class="organization">独立行政法人日本学生支援機構</div>
+<div class="project">令和７年度東京国際交流館交流研究発表会</div>
+</div></div>
+<div class="result-item"><div class="result-text">
+<div class="organization">独立行政法人情報処理推進機構（IPA）</div>
+<div class="project">DX銘柄2025発表会</div>
+</div></div>
+<div class="result-item"><div class="result-text">
+<div class="organization">独立行政法人農業者年金基金</div>
+<div class="project">農業者年金セミナー</div>
+</div></div>
+<div class="result-item"><div class="result-text">
+<div class="organization">財務省財務総合政策研究所</div>
+<div class="project">PRI・IMF（FAD）・ADBI 共同フォーラム「Tokyo Fiscal Forum 2025」</div>
+</div></div>
+<div class="result-item"><div class="result-text">
+<div class="organization">国立高等専門学校機構​</div>
+<div class="project">新任教員研修会運営</div>
+</div></div>
+<div class="result-item"><div class="result-text">
+<div class="organization">国立研究開発法人 農業・食品産業技術総合研究機構</div>
+<div class="project">標準型BRIDGE国際ワークショップ</div>
+</div></div>
+<div class="result-item"><div class="result-text">
+<div class="organization">JASSO日本学生支援機構</div>
+<div class="project">国費外国人留学生歓迎会2025in東京（6月開催）</div>
+</div></div>
+<div class="result-item"><div class="result-text">
+<div class="organization">水産庁</div>
+<div class="project">中西部太平洋まぐろ類委員会（ＷＣＰＦＣ）第21回北小委員会</div>
+</div></div>
+<div class="result-item"><div class="result-text">
+<div class="organization">国土交通省</div>
+<div class="project">都市におけるイノベーション創発のあり方に関する検討会</div>
+</div></div>
+<div class="result-item"><div class="result-text">
+<div class="organization">国立研究開発法人科学技術振興機構</div>
+<div class="project">SIP第3期課題「スマートエネルギーマネジメントシステムの構築」における公開シンポジウム</div>
+</div></div>
+<div class="result-item"><div class="result-text">
+<div class="organization">観光庁国際観光課</div>
+<div class="project">第１０回日越観光協力委員会</div>
+</div></div>
+<div class="result-item"><div class="result-text">
+<div class="organization">生物系特定産業技術研究支援センター</div>
+<div class="project">大阪・関西万博FLE展示</div>
+</div></div>
+<div class="result-item"><div class="result-text">
+<div class="organization">法務省</div>
+<div class="project">「法整備支援連携企画 法整備支援へのいざない」に係る会議運営</div>
+</div></div>
+<div class="result-item"><div class="result-text">
+<div class="organization">総務省</div>
+<div class="project">令和7年度「地域の魅力発信セミナー」</div>
+</div></div>
+<div class="result-item"><div class="result-text">
+<div class="organization">消費者庁</div>
+<div class="project">食品表示制度セミナー</div>
+</div></div>
+<div class="result-item"><div class="result-text">
+<div class="organization">防衛研究所</div>
+<div class="project">令和７年度ASEANワークショップ</div>
+</div></div>
+<div class="result-item"><div class="result-text">
+<div class="organization">防衛省　統合幕僚監部</div>
+<div class="project">国際平和と安全シンポジウム（ハ イブリッド形式）の会議運営</div>
+</div></div>
+<div class="result-item"><div class="result-text">
+<div class="organization">JASSO日本学生支援機構</div>
+<div class="project">国費外国人留学生歓迎会2025in東京（11月開催）</div>
+</div></div>
 </div>
 
 </section>
